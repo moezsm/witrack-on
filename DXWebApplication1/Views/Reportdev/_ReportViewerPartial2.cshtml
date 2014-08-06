@@ -1,8 +1,0 @@
-﻿@Html.DevExpress().ReportViewer(settings =>
-{
-    settings.Name = "ReportViewer";
-    settings.CallbackRouteValues = new { Controller = "Reportdev", Action = "ReportViewerPartial2", EquipementID = (int)ViewData["EquipementID"] };
-    settings.ExportRouteValues = new { Controller = "Reportdev", Action = "ReportViewerPartialExport2", EquipementID = (int)ViewData["EquipementID"] };
-    settings.Report = (DXWebApplication1.Reports.XtraReport2)Model;
-    //settings.Report = (PrimariusScope.Net.Reports.SiteReport)ViewData["Report"];
-}).GetHtml()
