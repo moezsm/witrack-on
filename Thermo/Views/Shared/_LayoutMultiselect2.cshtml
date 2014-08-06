@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from hmelius.com/avant/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 09 Nov 2013 09:08:30 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>MaySoft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MayTech">
+    <meta name="author" content="The Red Team">
+    <title>@ViewBag.Title - MaySoft</title>
+    <!-- <link href="assets/less/styles.less" rel="stylesheet/less" media="all">  -->
+    @Styles.Render("~/Content/assets/css/styles.mind87d.css?=112")
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+
+    @Styles.Render("~/Content/assets/demo/variations/default.css")
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. Placeholdr.js enables the placeholder attribute -->
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="assets/css/ie8.css">
+		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/charts-flot/excanvas.min.js"></script>
+	<![endif]-->
+
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+
+    @Styles.Render("~/Content/assets/plugins/form-daterangepicker/daterangepicker-bs3.css")
+    @Styles.Render("~/Content/assets/plugins/fullcalendar/fullcalendar.css")
+    @Styles.Render("~/Content/assets/plugins/form-markdown/css/bootstrap-markdown.min.css")
+    @Styles.Render("~/Content/assets/plugins/codeprettifier/prettify.css")
+    @Styles.Render("~/Content/assets/plugins/form-toggle/toggles.css")
+
+    @Styles.Render("~/assets/plugins/datatables/dataTables.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- <script type="text/javascript" src="assets/js/less.js"></script> -->
+
+</head>
+
+<body class="">
+
+                    @RenderSection("featured", required: false)
+                    @RenderBody()
+          
+   
+
+    @RenderSection("variables", false)
+    @RenderSection("scripts", required: false)
+</body>
+
+<!-- Mirrored from hmelius.com/avant/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 09 Nov 2013 09:10:26 GMT -->
+</html>

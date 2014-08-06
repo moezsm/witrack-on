@@ -1,0 +1,5 @@
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\BusnessLayer\obj\Debug\BusnessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\BusnessLayer\bin\Debug\BusnessLayer.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\BusnessLayer\bin\Debug\BusnessLayer.pdb
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\BusnessLayer\obj\Debug\BusnessLayer.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\BusnessLayer\obj\Debug\BusnessLayer.pdb

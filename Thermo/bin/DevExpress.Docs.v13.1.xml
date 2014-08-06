@@ -1,0 +1,4777 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.Docs.v13.1</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.Compression.ErrorEventArgs">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ErrorEventArgs.#ctor(System.Exception,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="exception">
+		 [To be supplied] 
+            </param>
+            <param name="itemName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ErrorEventArgs.GetException">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ErrorEventArgs.ItemName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipItemAddingEventArgs">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItemAddingEventArgs.#ctor(DevExpress.Compression.ZipItem)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="item">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItemAddingEventArgs.Action">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItemAddingEventArgs.Item">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipDirectoryItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipDirectoryItem.#ctor(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="dirName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipDirectoryItem.DirectoryName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipStreamItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipStreamItem.#ctor(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipStreamItem.ContentStream">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipTextItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipTextItem.#ctor(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipTextItem.Content">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipTextItem.ContentEncoding">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipFileItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipFileItem.#ctor(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipFileItem.FileName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipItem">
+
+            <summary>
+                <para>An entry containing compressed data.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.Attibutes">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.Comment">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.CompressedSize">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.CreationTime">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.CreationTimeUtc">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.Encoding">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.EncryptionType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItem.Extract">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItem.Extract(System.String,DevExpress.Compression.AllowFileOverwriteMode)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="directory">
+		 [To be supplied] 
+            </param>
+            <param name="allowFileOverwrite">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItem.Extract(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItem.Extract(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="directory">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.LastAccessTime">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.LastAccessTimeUtc">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.LastWriteTime">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.LastWriteTimeUtc">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.Name">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItem.Open">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.Password">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipItem.UncompressedSize">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraRichEdit.RichEditDocumentServer">
+
+            <summary>
+                <para>A non-visual rich text engine providing all the RichEditControl functionality.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the RichEditDocumentServer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.AddService(System.Type,System.Object)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="serviceInstance">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="callback">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="callback">
+		 [To be supplied] 
+            </param>
+            <param name="promote">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.AddService(System.Type,System.Object,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="serviceInstance">
+		 [To be supplied] 
+            </param>
+            <param name="promote">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.BeforeExport">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.BeforeImport">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.BeginInitialize">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.BeginUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.CalculateDocumentVariable">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.CancelUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.ContentChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.CreateMailMergeOptions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.CreateNewDocument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.Dispose">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.Document">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.DocumentClosing">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.DocumentLoaded">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.DpiX">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.DpiY">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.EmptyDocumentCreated">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.EndUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.ExportToPdf(System.IO.Stream,DevExpress.XtraPrinting.PdfExportOptions)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="pdfExportOptions">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.ExportToPdf(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.GetService(System.Type)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.GetService``1">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.HtmlText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.HtmlTextChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.InitializeDocument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.InvalidFormatException">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.IsPrintingAvailable">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.IsUpdateLocked">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.LayoutUnit">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.LoadDocument(System.String,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.LoadDocument(System.IO.Stream,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.LoadDocument(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.LoadDocumentTemplate(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.LoadDocumentTemplate(System.String,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.LoadDocumentTemplate(System.IO.Stream,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(DevExpress.XtraRichEdit.IRichEditDocumentServer)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="documentServer">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(DevExpress.XtraRichEdit.API.Native.MailMergeOptions,DevExpress.XtraRichEdit.API.Native.Document)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="options">
+		 [To be supplied] 
+            </param>
+            <param name="targetDocument">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(DevExpress.XtraRichEdit.API.Native.Document)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="document">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(DevExpress.XtraRichEdit.API.Native.MailMergeOptions,System.IO.Stream,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="options">
+		 [To be supplied] 
+            </param>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(DevExpress.XtraRichEdit.API.Native.MailMergeOptions,System.String,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="options">
+		 [To be supplied] 
+            </param>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(System.String,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(System.IO.Stream,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMerge(DevExpress.XtraRichEdit.API.Native.MailMergeOptions,DevExpress.XtraRichEdit.IRichEditDocumentServer)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="options">
+		 [To be supplied] 
+            </param>
+            <param name="targetDocumentServer">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMergeFinished">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMergeRecordFinished">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMergeRecordStarted">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.MailMergeStarted">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.MhtText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.MhtTextChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.Model">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.Modified">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.ModifiedChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.OpenDocumentBytes">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.OpenDocumentBytesChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.OpenXmlBytes">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.OpenXmlBytesChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.Options">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.RemoveService(System.Type,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="promote">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.RemoveService(System.Type)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.ReplaceService``1(``0)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="newService">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.RtfText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.RtfTextChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.SaveDocument(System.String,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraRichEdit.RichEditDocumentServer.SaveDocument(System.IO.Stream,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.SelectionChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.UnhandledException">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.Unit">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraRichEdit.RichEditDocumentServer.WordMLText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraRichEdit.RichEditDocumentServer.WordMLTextChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ProgressEventHandler">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ProgressEventHandler.Invoke(System.Object,DevExpress.Compression.ProgressEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="sender">
+		 [To be supplied] 
+            </param>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ProgressEventArgs">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ProgressEventArgs.#ctor(System.Double)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="progress">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ProgressEventArgs.Progress">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.AllowFileOverwriteEventHandler">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.AllowFileOverwriteEventHandler.Invoke(System.Object,DevExpress.Compression.AllowFileOverwriteEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="sender">
+		 [To be supplied] 
+            </param>
+            <param name="e">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.AllowFileOverwriteEventArgs">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.AllowFileOverwriteEventArgs.#ctor(DevExpress.Compression.ZipItem,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="zipItem">
+		 [To be supplied] 
+            </param>
+            <param name="targetFilePath">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.AllowFileOverwriteEventArgs.TargetFilePath">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.AllowFileOverwriteEventArgs.ZipItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.AllowFileOverwriteMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.Compression.AllowFileOverwriteMode.Allow">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.AllowFileOverwriteMode.Custom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.AllowFileOverwriteMode.Forbidden">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.EncryptionType">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.Compression.EncryptionType.Aes128">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.EncryptionType.Aes192">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.EncryptionType.Aes256">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.EncryptionType.None">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.EncryptionType.PkZip">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipArchive">
+
+            <summary>
+                <para>A package of entries containing compressed data.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddByteArray(System.String,System.Byte[])">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="content">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddDirectory(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+            <param name="archivePath">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddDirectory(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddFile(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddFile(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="relativePath">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddFiles(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileNames">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddFiles(System.Collections.Generic.IEnumerable`1,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileNames">
+		 [To be supplied] 
+            </param>
+            <param name="archivePath">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddStream(System.String,System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddText(System.String,System.String,System.Text.Encoding)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="content">
+		 [To be supplied] 
+            </param>
+            <param name="encoding">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddText(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.AddText(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="content">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="E:DevExpress.Compression.ZipArchive.AllowFileOverwrite">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.Count">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Dispose">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.EncryptionType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Compression.ZipArchive.Error">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Extract">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Extract(System.String,DevExpress.Compression.AllowFileOverwriteMode)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+            <param name="mode">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Extract(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.FileName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.IsValid">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.Item(System.Int32)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="index">
+		 [To be supplied] 
+            </param>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.Item(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Compression.ZipArchive.ItemAdding">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.OptionsBehavior">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchive.Password">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Compression.ZipArchive.Progress">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Read(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Read(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Read(System.IO.Stream,System.Text.Encoding)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="encoding">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Read(System.String,System.Text.Encoding)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="encoding">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.RemoveItem(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.RemoveItem(DevExpress.Compression.ZipItem)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="item">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Save(System.IO.Stream)">
+            <summary>
+                <para>Compress data and save them to a specified stream.
+</para>
+            </summary>
+            <param name="stream">
+		The <see cref="T:System.IO.Stream"/> object to output the archive to.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.Save(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateDirectory(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+            <param name="archivePath">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateDirectory(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateFile(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="relativePath">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateFile(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateStream(System.String,System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateText(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="content">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchive.UpdateText(System.String,System.String,System.Text.Encoding)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="content">
+		 [To be supplied] 
+            </param>
+            <param name="encoding">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipByteArrayItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipByteArrayItem.#ctor(System.String,System.Byte[])">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="name">
+		 [To be supplied] 
+            </param>
+            <param name="content">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipByteArrayItem.Content">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.CanContinueEventArgs">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.Compression.CanContinueEventArgs.CanContinue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.UnzipItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.UnzipItem.#ctor(DevExpress.Compression.Internal.InternalZipFileEx)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="zipFile">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.UnzipItem.EncryptionType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.BarCodeGeneratorOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeGeneratorOptions.ShowCodeText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.UnitConversion.Units">
+
+            <summary>
+                <para>Provides access to unit converters.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Area">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Binary">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Distance">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Energy">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Force">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Information">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Magnetism">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Mass">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Metric">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Power">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Pressure">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Speed">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Temperature">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Time">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.Units.Volume">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.UnitConversion.QuantityValue`1">
+
+            <summary>
+                <para>Contains the unit of measurement and its value.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.UnitConversion.QuantityValue`1.Value">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipItemAddingAction">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.Compression.ZipItemAddingAction.Cancel">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.ZipItemAddingAction.Continue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Compression.ZipItemAddingAction.Stop">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Docs.Text.EncodingDetector">
+
+            <summary>
+                <para>Provides the capability to detect text encoding.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.AnalyseData(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="buffer">
+		 [To be supplied] 
+            </param>
+            <param name="from">
+		 [To be supplied] 
+            </param>
+            <param name="length">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.BeginDetection">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.Detect(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="buffer">
+		 [To be supplied] 
+            </param>
+            <param name="from">
+		 [To be supplied] 
+            </param>
+            <param name="length">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.Detect(System.Byte[])">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="buffer">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.Detect(System.IO.Stream,System.Int32,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="maxByteCount">
+		 [To be supplied] 
+            </param>
+            <param name="keepPosition">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.Detect(System.IO.Stream,System.Int32)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="maxByteCount">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.Detect(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.EncodingDetector.EndDetection">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Snap.SnapDocumentServer">
+
+            <summary>
+                <para>A non-visual reporting engine providing all the functionality of Snap.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Snap.SnapDocumentServer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the SnapDocumentServer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Snap.SnapDocumentServer.Document">
+            <summary>
+                <para>Provides access to a Snap document stored on the SnapDocumentServer.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.Snap.Core.API.SnapDocument"/> object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Snap.SnapDocumentServer.SnxBytes">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.QRCodeErrorLevel">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeErrorLevel.H">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeErrorLevel.L">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeErrorLevel.M">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeErrorLevel.Q">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.QRCodeCompactionMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeCompactionMode.AlphaNumeric">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeCompactionMode.Byte">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.QRCodeCompactionMode.Numeric">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.PDF417ErrorLevel">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level0">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level1">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level2">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level3">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level4">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level5">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level6">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level7">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417ErrorLevel.Level8">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.PDF417CompactionMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417CompactionMode.Binary">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.PDF417CompactionMode.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.DataMatrixCompactionMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.DataMatrixCompactionMode.ASCII">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.DataMatrixCompactionMode.Binary">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.DataMatrixCompactionMode.C40">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.DataMatrixCompactionMode.Edifact">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.DataMatrixCompactionMode.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.DataMatrixCompactionMode.X12">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code128CharacterSet">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Code128CharacterSet.CharsetA">
+            <summary>
+                <para>The "A" character set will be used for coding a barcode.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Code128CharacterSet.CharsetAuto">
+            <summary>
+                <para>The character set will be chosen automatically according to the text assigned to a barcode.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Code128CharacterSet.CharsetB">
+            <summary>
+                <para>The "B" character set will be used for coding a barcode.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Code128CharacterSet.CharsetC">
+            <summary>
+                <para>The "C" character set will be used for coding a barcode.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.CodabarStartStopPair">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.CodabarStartStopPair.AT">
+            <summary>
+                <para>The first element in a barcode is "A" and the last element is "T". 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.CodabarStartStopPair.BN">
+            <summary>
+                <para>The first element in a barcode is "B" and the last element is "N". 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.CodabarStartStopPair.CStar">
+            <summary>
+                <para>The first element in a barcode is "C" and the last element is "*". 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.CodabarStartStopPair.DE">
+            <summary>
+                <para>The first element in a barcode is "D" and the last element is "E". 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.CodabarStartStopPair.None">
+            <summary>
+                <para>The are no start (first) and stop (last) elements used in a barcode.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.UPCSupplemental5Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.UPCSupplemental5Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.UPCSupplemental2Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.UPCSupplemental2Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.UPCE1Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.UPCE1Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.UPCE0Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.UPCE0Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.UPCAOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.UPCAOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.QRCodeOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.QRCodeOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.QRCodeOptions.CompactionMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.QRCodeOptions.ErrorLevel">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.PostNetOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.PostNetOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.PDF417Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.PDF417Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.PDF417Options.Columns">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.PDF417Options.CompactionMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.PDF417Options.ErrorLevel">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.PDF417Options.Rows">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.PDF417Options.TruncateSymbol">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Matrix2of5Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Matrix2of5Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Interleaved2of5Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Interleaved2of5Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Interleaved2of5Options.CalcCheckSum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Interleaved2of5Options.WideNarrowRatio">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.IntelligentMailOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.IntelligentMailOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Industrial2of5Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Industrial2of5Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Industrial2of5Options.CalcCheckSum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Industrial2of5Options.WideNarrowRatio">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.EAN8Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.EAN8Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.EAN13Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.EAN13Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.EAN128Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.EAN128Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.EAN128Options.Charset">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.EAN128Options.FNC1Substitut">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.DataMatrixOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.DataMatrixOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.DataMatrixOptions.CompactionMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.DataMatrixGS1Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.DataMatrixGS1Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.DataMatrixGS1Options.FNC1Substitut">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.CodeMSIOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.CodeMSIOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code93Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Code93Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Code93Options.CalcCheckSum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code93ExtendedOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Code93ExtendedOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code39Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Code39Options.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Code39Options.CalcCheckSum">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Code39Options.WideNarrowRatio">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code39ExtendedOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Code39ExtendedOptions.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code128Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Code128Options.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Code128Options class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.Code128Options.Charset">
+            <summary>
+                <para>Gets or sets the charset type for the barcode. 
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code128CharacterSet"/> enumeration value that specifies a charset to be used.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Code11Options">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.Code11Options.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Code11Options class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.CodabarOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.CodabarOptions.#ctor">
+            <summary>
+                <para>Initializes a new instance of the CodabarOptions class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.CodabarOptions.StartStopPair">
+            <summary>
+                <para>Gets or sets the first (start) and last (stop) symbols used to code the barcode's structure. 
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.CodabarStartStopPair"/> enumeration value that specifies the pair of start and stop symbols used. Default value is <see cref="F:DevExpress.BarCodes.CodabarStartStopPair.AT"/>.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.CodabarOptions.WideNarrowRatio">
+            <summary>
+                <para>Gets or sets the density of bars.
+</para>
+            </summary>
+            <value>A float value specifying the density of bars. The default is 2.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.BarCodeOptions">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCodeOptions.#ctor">
+            <summary>
+                <para>Initializes a new instance of the BarCodeOptions class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Codabar">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.CodabarOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Code11">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code11Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Code128">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code128Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Code39">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code39Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Code39Extended">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code39ExtendedOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Code93">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code93Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Code93Extended">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Code93ExtendedOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.CodeMSI">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.CodeMSIOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.DataMatrix">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.DataMatrixOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.DataMatrixGS1">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.DataMatrixGS1Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.EAN128">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.EAN128Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.EAN13">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.EAN13Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.EAN8">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.EAN8Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Industrial2of5">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Industrial2of5Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.IntelligentMail">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.IntelligentMailOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Interleaved2of5">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCSupplemental5Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.Matrix2of5">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Matrix2of5Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.PDF417">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.PDF417Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.PostNet">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCSupplemental5Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.QRCode">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.QRCodeOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.UPCA">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCAOptions"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.UPCE0">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCE0Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.UPCE1">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCE1Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.UPCSupplemental2">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCSupplemental2Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeOptions.UPCSupplemental5">
+            <summary>
+                <para>Provides access to options specific for this type of bar code (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.UPCSupplemental5Options"/> class instance containing bar code specific options.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.Symbology">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Codabar">
+            <summary>
+                <para>
+<para>Codabar</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Code11">
+            <summary>
+                <para>
+<para>Code 11 (USD-8)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Code128">
+            <summary>
+                <para>
+<para>Code 128</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Code39">
+            <summary>
+                <para>
+<para>Code 39 (USD-3)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Code39Extended">
+            <summary>
+                <para>
+<para>Code 39 Extended</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Code93">
+            <summary>
+                <para>
+<para>Code 93</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Code93Extended">
+            <summary>
+                <para>
+<para>Code 93 Extended</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.CodeMSI">
+            <summary>
+                <para>
+<para>MSI/Plessey</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.DataMatrix">
+            <summary>
+                <para>
+<para>Data Matrix</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.DataMatrixGS1">
+            <summary>
+                <para>
+<para>GS1- Data Matrix</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.EAN128">
+            <summary>
+                <para>
+<para>EAN-128 (UCC)</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.EAN13">
+            <summary>
+                <para>
+<para>EAN 13</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.EAN8">
+            <summary>
+                <para>
+<para>EAN 8</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Industrial2of5">
+            <summary>
+                <para>
+<para>Industrial 2 of 5</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.IntelligentMail">
+            <summary>
+                <para>
+<para>Intelligent Mail</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Interleaved2of5">
+            <summary>
+                <para>
+<para>Interleaved 2 of 5</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.Matrix2of5">
+            <summary>
+                <para>
+<para>Matrix 2 of 5</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.PDF417">
+            <summary>
+                <para>
+<para>PDF417</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.PostNet">
+            <summary>
+                <para>
+<para>PostNet</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.QRCode">
+            <summary>
+                <para>
+<para></para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.UPCA">
+            <summary>
+                <para>
+<para>UPC-A</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.UPCE0">
+            <summary>
+                <para>
+<para>UPC-E0</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.UPCE1">
+            <summary>
+                <para>
+<para>UPC-E1</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.UPCSupplemental2">
+            <summary>
+                <para>
+<para>UPC Supplemental 2</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.BarCodes.Symbology.UPCSupplemental5">
+            <summary>
+                <para>
+<para>UPC Supplemental 5</para>
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.BarCode">
+
+            <summary>
+                <para>A non-visual object that can generate a barcode for a given data with the specified options.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.#ctor">
+            <summary>
+                <para>Initializes a new instance of the BarCode class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.AutoSize">
+            <summary>
+                <para>Allows you to create an image in a size that fits all the specified barcode options.
+
+</para>
+            </summary>
+            <value><b>true</b>, to create an image unrestricted to the specified size; otherwise, <b>false</b>.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.BackColor">
+            <summary>
+                <para>Gets or sets the background color of a bar code image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> object specifying the image background color.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.BarCodeImage">
+            <summary>
+                <para>Gets the bar code image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Bitmap"/> object that is the bar code image.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.BarHeight">
+            <summary>
+                <para>Gets or sets the height of bars in a bar code.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that specifies the bar height in current units.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.BorderColor">
+            <summary>
+                <para>Gets or sets the border color of the bar code image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> object that is the border color.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.BorderWidth">
+            <summary>
+                <para>Specifies the border width of the barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that is the border width, measured in units specified by the <see cref="P:DevExpress.BarCodes.BarCode.Unit"/> property.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.BottomCaption">
+            <summary>
+                <para>Provides access to characteristics of the bar code bottom caption.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.BarCodeCaption"/> object containing caption characteristics.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.CodeBinaryData">
+            <summary>
+                <para>Gets or sets the byte array to be coded into certain barcode types.
+</para>
+            </summary>
+            <value>An array of bytes to be coded using the barcode's symbology.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.CodeText">
+            <summary>
+                <para>Gets or sets the text to be coded using the barcode symbology.
+</para>
+            </summary>
+            <value>A string containing the text represented by a barcode.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.CodeTextFont">
+            <summary>
+                <para>Specifies the font used to display the barcode text.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Font"/> object that specifies the font attributes.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.CodeTextHorizontalAlignment">
+            <summary>
+                <para>Get or sets the horizontal alignment of the barcode text within the barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.StringAlignment"/> enumeration value that specifies how the barcode text is aligned within the image.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.CodeTextVerticalAlignment">
+            <summary>
+                <para>Get or sets the vertical alignment of the barcode text within the barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.StringAlignment"/> enumeration value that specifies how the barcode text is aligned within the image.
+
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.Dispose">
+            <summary>
+                <para>Resets the barcode image, disposes of the BarCode object and releases all the allocated resources.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Dpi">
+            <summary>
+                <para>Gets or sets the dpi value used to render the barcode.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value representing the dpi value used to create the barcode image.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.DpiX">
+            <summary>
+                <para>Gets or sets the dpi value for the X-coordinate used to render the barcode.
+
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value representing the dpi value used to create the barcode image.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.DpiY">
+            <summary>
+                <para>Gets or sets the dpi value for the Y-coordinate used to render the barcode.
+
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value representing the dpi value used to create the barcode image.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.ExportToPdf(System.String)">
+            <summary>
+                <para>Exports the barcode image to the specified file path in PDF format.
+</para>
+            </summary>
+            <param name="fileName">
+		A <see cref="T:System.String"/> which specifies the file name (including the full path) for the created PDF file.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.ExportToPdf(System.IO.Stream)">
+            <summary>
+                <para>Exports the barcode to the specified stream in PDF format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> object to which the created document is exported.
+
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.ForeColor">
+            <summary>
+                <para>Gets or sets the color of bars in the barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> used to paint the bars of the barcode.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.ImageHeight">
+            <summary>
+                <para>Gets or sets the height of the barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that is the height of an image in units specified by the <see cref="P:DevExpress.BarCodes.BarCode.Unit"/> property.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.ImageSize">
+            <summary>
+                <para>Gets or sets the size of the barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.SizeF"/> structure that is the size of an image in units specified by the <see cref="P:DevExpress.BarCodes.BarCode.Unit"/> property.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.ImageWidth">
+            <summary>
+                <para>Gets or sets the width of the resulting image.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that is the width of an image in units specified by the <see cref="P:DevExpress.BarCodes.BarCode.Unit"/> property.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.IsPrintingAvailable">
+            <summary>
+                <para>Indicates whether the barcode can be printed and exported to PDF.
+</para>
+            </summary>
+            <value><b>true</b>, if the control can be printed and exported; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Margins">
+            <summary>
+                <para>Provides access to margin widths set for a barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.BarCodeMargins"/> object containing margin widths for a barcode image.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Module">
+            <summary>
+                <para>Gets or sets the width of the narrowest bar or space in the barcode. 
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value which represents the width of the narrowest bar or space.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Options">
+            <summary>
+                <para>Provides access to options specific for various barcode types.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.BarCodeOptions"/> object containing type-specific options.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Paddings">
+            <summary>
+                <para>Gets the padding settings of a barcode image.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.BarCodePadding"/> object that contains padding settings.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.Print">
+            <summary>
+                <para>Prints the barcode to the default printer.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.PrintDialog">
+            <summary>
+                <para>Invokes a dialog that enables you to select a printer and change print settings.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.RotationAngle">
+            <summary>
+                <para>Gets or sets the number of degrees the barcode is rotated around the z-axis. 
+</para>
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that is the number of degrees.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.Save(System.IO.Stream,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+                <para>Saves the barcode image to the stream in a specified format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant to which the image is written.
+
+            </param>
+            <param name="format">
+		A <see cref="T:System.Drawing.Imaging.ImageFormat"/> enumeration that specifies an image format.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.Save(System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+                <para>Saves the barcode image to a file, specifying the image file format.
+
+
+</para>
+            </summary>
+            <param name="fileName">
+		A <see cref="T:System.String"/> value, which specifies the path to the file into which to save the image.
+
+            </param>
+            <param name="format">
+		A <see cref="T:System.Drawing.Imaging.ImageFormat"/> enumeration that specifies the image format.
+
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCode.ShowPrintPreview">
+            <summary>
+                <para>Invokes a dialog that enables you to preview the printout, print or save it in PDF format, or as an image file.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.ShowText">
+            <summary>
+                <para>Indicates whether the code text is shown.
+</para>
+            </summary>
+            <value><b>true</b>, if the code text is displayed; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Symbology">
+            <summary>
+                <para>Gets or sets the barcode type (symbology).
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.Symbology"/> enumeration specifying the current barcode type.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.TextRenderingHint">
+            <summary>
+                <para>Gets or sets the barcode text rendering quality.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Text.TextRenderingHint"/> enumeration value specifying the barcode rendering quality. The default is <b>TextRenderingHint.AntiAlias</b>.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.TopCaption">
+            <summary>
+                <para>Provides access to characteristics of the bar code top caption.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.BarCodes.BarCodeCaption"/> object containing caption characteristics.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCode.Unit">
+            <summary>
+                <para>Gets or sets the unit of measurement for barcode settings.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.GraphicsUnit"/> enumeration value 
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipArchiveOptionsBehavior">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipArchiveOptionsBehavior.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Compression.ZipArchiveOptionsBehavior.AllowFileOverwrite">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ZipItemAddingEventHandler">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ZipItemAddingEventHandler.Invoke(System.Object,DevExpress.Compression.ZipItemAddingEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="sender">
+		 [To be supplied] 
+            </param>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.BarCodePadding">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCodePadding.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodePadding.Bottom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodePadding.Left">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodePadding.Right">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodePadding.Top">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.BarCodeMargins">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.BarCodes.BarCodeMargins.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeMargins.Bottom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeMargins.Left">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeMargins.Right">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeMargins.Top">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.BarCodes.BarCodeCaption">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeCaption.Font">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeCaption.ForeColor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeCaption.HorizontalAlignment">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeCaption.Paddings">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.BarCodes.BarCodeCaption.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Spreadsheet.Workbook">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.ActiveSheetChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.ActiveSheetChanging">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.AddService(System.Type,System.Object,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="serviceInstance">
+		 [To be supplied] 
+            </param>
+            <param name="promote">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.AddService(System.Type,System.Object)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="serviceInstance">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="callback">
+		 [To be supplied] 
+            </param>
+            <param name="promote">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="callback">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.BeforeExport">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.BeforeImport">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.BeginUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.Calculate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.CancelUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.ColumnsInserted">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.ColumnsRemoved">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.CreateNewDocument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.CurrentAuthor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.CustomFunctions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.DefinedNames">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.Dispose">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.DocumentLoaded">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.DocumentSettings">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.EmptyDocumentCreated">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.EndUpdate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.Evaluate(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="formula">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.Evaluate(System.String,DevExpress.Spreadsheet.Functions.FormulaEvaluationContext)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="formula">
+		 [To be supplied] 
+            </param>
+            <param name="context">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.ExportToPdf(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.ExportToPdf(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.ExternalWorkbooks">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.GetService(System.Type)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.GetService``1">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.GlobalCustomFunctions">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.HasMacros">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.History">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.InitializeDocument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.InvalidFormatException">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.IsDisposed">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.IsUpdateLocked">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.LoadDocument(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.LoadDocument(System.IO.Stream,DevExpress.Spreadsheet.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.LoadDocument(System.String,DevExpress.Spreadsheet.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Model">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.ModifiedChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Options">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Path">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Range">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.RemoveService(System.Type,System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+            <param name="promote">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.RemoveService(System.Type)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="serviceType">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.ReplaceService``1(``0)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="newService">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.RowsInserted">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.RowsRemoved">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.SaveDocument(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.SaveDocument(System.String,DevExpress.Spreadsheet.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="format">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Spreadsheet.Workbook.SaveDocument(System.IO.Stream,DevExpress.Spreadsheet.DocumentFormat)">
+            <summary>
+                <para>Saves the workbook to a stream, specifying the export format.
+</para>
+            </summary>
+            <param name="stream">
+		The <see cref="T:System.IO.Stream"/> object to output the document to.
+
+            </param>
+            <param name="format">
+		One of the <see cref="T:DevExpress.Spreadsheet.DocumentFormat"/> values that is the format of the exported document.
+
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.SelectionChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.SheetInserted">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.SheetRemoved">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.SheetRenamed">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.SheetRenaming">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Styles">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.TableStyles">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Unit">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.UnitChanged">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.Spreadsheet.Workbook.UnitChanging">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Spreadsheet.Workbook.Worksheets">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Docs.Text.INumberInWordsProvider">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.INumberInWordsProvider.ConvertToText(System.Int32)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.INumberInWordsProvider.ConvertToText(System.Int32,System.Globalization.CultureInfo)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <param name="culture">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Docs.Text.INumberInWordsProvider.ConvertToText(System.Int32,DevExpress.Docs.Text.NumberCulture)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <param name="language">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Docs.Text.NumberInWords">
+
+            <summary>
+                <para>Provides access to static properties used to obtain to a provider that converts numbers to words.
+
+
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.Docs.Text.NumberInWords.Cardinal">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Docs.Text.NumberInWords.Ordinal">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Docs.Text.NumberCulture">
+
+            <summary>
+                <para>Lists language type of numerals for which numbers can be converted to words.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.English">
+            <summary>
+                <para>English numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.French">
+            <summary>
+                <para>French numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.German">
+            <summary>
+                <para>German numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.Italian">
+            <summary>
+                <para>Italian numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.LatinLetter">
+            <summary>
+                <para>Latin Letter numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.Roman">
+            <summary>
+                <para>Roman numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.Russian">
+            <summary>
+                <para>Russian numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.RussianLetter">
+            <summary>
+                <para>Russian Letter numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.Swedish">
+            <summary>
+                <para>Swedish numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Docs.Text.NumberCulture.Turkish">
+            <summary>
+                <para>Turkish numerals.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Compression.ErrorEventHandler">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Compression.ErrorEventHandler.Invoke(System.Object,DevExpress.Compression.ErrorEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="sender">
+		 [To be supplied] 
+            </param>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+    </members>
+</doc>

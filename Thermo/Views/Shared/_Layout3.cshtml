@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from hmelius.com/avant/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 09 Nov 2013 09:08:30 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>MaySoft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MayTech">
+    <meta name="author" content="The Red Team">
+    <title>@ViewBag.Title - MaySoft</title>
+    <!-- <link href="assets/less/styles.less" rel="stylesheet/less" media="all">  -->
+    @Styles.Render("~/Content/assets/css/styles.mind87d.css?=112")
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+    @Styles.Render("~/Content/assets/demo/variations/default.css")
+
+    @Styles.Render("~/Content/assets/demo/variations/default.css")
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. Placeholdr.js enables the placeholder attribute -->
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="assets/css/ie8.css">
+		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/charts-flot/excanvas.min.js"></script>
+	<![endif]-->
+
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+
+    @Styles.Render("~/Content/assets/plugins/form-daterangepicker/daterangepicker-bs3.css")
+    @Styles.Render("~/Content/assets/plugins/fullcalendar/fullcalendar.css")
+    @Styles.Render("~/Content/assets/plugins/form-markdown/css/bootstrap-markdown.min.css")
+    @Styles.Render("~/Content/assets/plugins/codeprettifier/prettify.css")
+    @Styles.Render("~/Content/assets/plugins/form-toggle/toggles.css")
+
+    @Styles.Render("~/assets/plugins/datatables/dataTables.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- <script type="text/javascript" src="assets/js/less.js"></script> -->
+
+</head>
+
+<body class="">
+  
+  
+
+    <div id="headerbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="shortcut-tiles tiles-brown">
+                        <div class="tiles-body">
+                            <div class="pull-left"><i class="fa fa-pencil"></i></div>
+                        </div>
+                        <div class="tiles-footer">
+                            Create Post
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="shortcut-tiles tiles-grape">
+                        <div class="tiles-body">
+                            <div class="pull-left"><i class="fa fa-group"></i></div>
+                            <div class="pull-right"><span class="badge">2</span></div>
+                        </div>
+                        <div class="tiles-footer">
+                            Contacts
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="shortcut-tiles tiles-primary">
+                        <div class="tiles-body">
+                            <div class="pull-left"><i class="fa fa-envelope-o"></i></div>
+                            <div class="pull-right"><span class="badge">10</span></div>
+                        </div>
+                        <div class="tiles-footer">
+                            Messeges
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="shortcut-tiles tiles-inverse">
+                        <div class="tiles-body">
+                            <div class="pull-left"><i class="fa fa-camera"></i></div>
+                            <div class="pull-right"><span class="badge">3</span></div>
+                        </div>
+                        <div class="tiles-footer">
+                            Gallery
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="shortcut-tiles tiles-midnightblue">
+                        <div class="tiles-body">
+                            <div class="pull-left"><i class="fa fa-cog"></i></div>
+                        </div>
+                        <div class="tiles-footer">
+                            Settings
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <a href="#" class="shortcut-tiles tiles-orange">
+                        <div class="tiles-body">
+                            <div class="pull-left"><i class="fa fa-wrench"></i></div>
+                        </div>
+                        <div class="tiles-footer">
+                            Plugins
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+                <a id="leftmenu-trigger" class="tooltips" data-toggle="tooltip" data-placement="right" title="Toggle Sidebar"></a>
+        <ul class="nav navbar-nav pull-right toolbar">
+             <li class="dropdown">
+        		<a href="#" class="dropdown-toggle username" data-toggle="dropdown"><span class="hidden-xs">@WebSecurity.CurrentUserName <i class="fa fa-caret-down"></i></span><!--<img src="assets/demo/avatar/dangerfield.png" alt="Dangerfield" />--></a>
+        		<ul class="dropdown-menu userinfo arrow">
+        			<li class="username">
+                        <a href="#">
+        				    <div class="pull-left"><!--<img class="userimg" src="assets/demo/avatar/dangerfield.png" alt="Jeff Dangerfield"/>--></div>
+        				    <div class="pull-right"><h5>Howdy, @WebSecurity.CurrentUserName!</h5><small>Logged in as <span>@WebSecurity.CurrentUserName</span></small></div>
+                        </a>
+        			</li>
+        			<li class="userlinks">
+        				<ul class="dropdown-menu">
+        					<li><a href="#">Edit Profile <i class="pull-right fa fa-pencil"></i></a></li>
+        					<li><a href="#">Account <i class="pull-right fa fa-cog"></i></a></li>
+        					<li><a href="#">Help <i class="pull-right fa fa-question-circle"></i></a></li>
+        					<li class="divider"></li>
+        					<li><a href="~/Account/LogOff" class="text-right">Sign Out</a></li>
+        				</ul>
+        			</li>
+        		</ul>
+        	</li>
+            <li>
+                <a href="#" id="headerbardropdown"><span><i class="fa fa-level-down"></i></span></a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="page-container">
+        <!-- BEGIN SIDEBAR -->
+        <nav id="page-leftbar" role="navigation">
+            <!-- BEGIN SIDEBAR MENU -->
+            <ul class="acc-menu" id="sidebar">
+                <li id="search">
+                    <a href="javascript:;"><i class="fa fa-search opacity-control"></i></a>
+                    <form>
+                        <input type="text" class="search-query" placeholder="Search...">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+                <li class="divider"></li>
+                <li><a href="~/Home/Dashbord"><i class="fa fa-home"></i> <span>Home</span></a></li>
+                <li><a href="javascript:;"><i class="fa fa-th"></i><span>Parameter</span> </a>
+                    <ul class="acc-menu">
+                        <li><span>@Html.ActionLink("Locations", "Index", "Location")</span>
+                        <li><span>@Html.ActionLink("Zones", "Index", "Zone")</span>
+                        <li><span>@Html.ActionLink("Sondes", "Index", "Equipement")</span>
+                      <!--  <li><span>@Html.ActionLink("Sensors", "Index", "Sensor")</span> -->
+                    </ul>
+                </li>
+                <li><a href="~/Alarme"><i class="fa fa-bell"></i> <span>Alarme</span></a></li>
+                <li><a href="~/Evenement"><i class="fa fa-calendar"></i> <span>Event</span></a></li>
+                <li><a href="~/Responsable"><i class="fa fa-ban"></i> <span>Responsability</span></a></li>
+                <li><a href="javascript:;"><i class="fa fa-user"></i><span>Users</span> </a>
+                    <ul class="acc-menu">
+                        <li><span>@Html.ActionLink("List users", "Index", "Profil")</span>
+                        <li><span>@Html.ActionLink("New User", "Register", "Account")</span>
+                    </ul>
+                </li>
+            </ul>
+            <!-- END SIDEBAR MENU -->
+        </nav>
+
+        <!-- BEGIN RIGHTBAR -->
+        <div id="page-rightbar">
+        </div>
+        <!-- END RIGHTBAR -->
+        <div id="page-content">
+            <div id='wrap'>
+                <div id="page-heading">
+                    @RenderSection("breadcrumb", required: false)
+
+
+                    @RenderSection("pagetitle", required: false)
+                    <div class="options">
+                        <div class="btn-toolbar">
+                            
+                            <div class="btn-group hidden-xs">
+                                <a href='#' class="btn btn-default dropdown-toggle" data-toggle='dropdown'><i class="fa fa-cloud-download"></i><span class="hidden-xs hidden-sm hidden-md">Export as</span> <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    @RenderSection("report", required: false)
+                                </ul>
+                            </div>
+                            <a href="#" class="btn btn-default hidden-xs"><i class="fa fa-cog"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container">
+
+                    @RenderSection("featured", required: false)
+                    @RenderBody()
+                </div>
+                <!-- container -->
+            </div>
+            <!--wrap -->
+        </div>
+        <!-- page-content -->
+
+        <footer role="contentinfo">
+            <div class="clearfix">
+                <ul class="list-unstyled list-inline">
+                    <li>MaySoft &copy; 2014</li>
+                    <button class="pull-right btn btn-inverse-alt btn-xs hidden-print" id="back-to-top"><i class="fa fa-arrow-up"></i></button>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- page-container -->
+
+    <!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script>!window.jQuery && document.write(unescape('%3Cscript src="assets/js/jquery-1.10.2.min.js"%3E%3C/script%3E'))</script>
+<script type="text/javascript">!window.jQuery.ui && document.write(unescape('%3Cscript src="assets/js/jqueryui-1.10.3.min.js'))</script>
+-->
+
+    @Scripts.Render("~/assets/js/jquery-1.10.2.min.js")
+    @Scripts.Render("~/assets/js/jqueryui-1.10.3.min.js")
+    @Scripts.Render("~/assets/js/bootstrap.min.js")
+    @Scripts.Render("~/assets/js/enquire.js")
+    @Scripts.Render("~/assets/js/jquery.cookie.js")
+
+    @Scripts.Render("~/assets/js/jquery.nicescroll.min.js")
+    @Scripts.Render("~/assets/plugins/codeprettifier/prettify.js")
+    @Scripts.Render("~/assets/plugins/easypiechart/jquery.easypiechart.min.js")
+    @Scripts.Render("~/assets/plugins/sparklines/jquery.sparklines.min.js")
+
+    @Scripts.Render("~/assets/plugins/form-toggle/toggle.min.js")
+    @Scripts.Render("~/assets/js/placeholdr.js")
+    @Scripts.Render("~/assets/js/application.js")
+    @Scripts.Render("~/assets/demo/demo.js")
+
+    @Styles.Render("~/Scripts/stock/highstock.js")
+    @Styles.Render("~/Scripts/stock/modules/exporting.js")
+
+    @RenderSection("variables", false)
+    @Scripts.Render("~/Scripts/graph.js")
+    @RenderSection("scripts", required: false)
+</body>
+
+<!-- Mirrored from hmelius.com/avant/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 09 Nov 2013 09:10:26 GMT -->
+</html>
+
+
+
+
+
+

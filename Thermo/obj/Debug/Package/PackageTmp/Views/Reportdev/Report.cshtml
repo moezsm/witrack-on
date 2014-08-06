@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Report";
+}
+
+<h2>Index</h2>
+@{DXWebApplication1.Models.DetailReport detail1 = ViewData["detail"] as DXWebApplication1.Models.DetailReport;}
+@model XtraReport
+@{  
+    ViewBag.Title = "Report Viewer";  
+}
+
+@Html.DevExpress().ReportToolbar(settings =>
+{
+    settings.Name = "ReportToolbar";
+    settings.ReportViewerName = "ReportViewer";
+    settings.ItemSpacing = 16;
+}).GetHtml()
+@Html.Action("ReportViewerPartial", new {EquipementID = detail1.EquipementID, username = detail1.username, location = detail1.location, zone = detail1.zone, datereport = detail1.datereport, datedebut = detail1.datedebut, datefin = detail1.datefin, numerosonde = detail1.numerosonde, max = detail1.max, min = detail1.min   })

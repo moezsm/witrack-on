@@ -1,0 +1,43 @@
+﻿@model Thermo.Models.Audit
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Audit</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IPAddress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IPAddress)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AreaAccessed)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AreaAccessed)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Timestamp)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Timestamp)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AuditID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

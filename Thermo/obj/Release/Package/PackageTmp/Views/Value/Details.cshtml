@@ -1,0 +1,36 @@
+﻿@model Thermo.Models.Value
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Value</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Val)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Val)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DateCreation)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DateCreation)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Equipements.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Equipements.Name)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ValueId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

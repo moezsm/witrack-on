@@ -1,0 +1,140 @@
+﻿@model Thermo.Models.Profil
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Ressources.Resources.Details</h2>
+<!--
+<fieldset>
+    <legend>Userinfo</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Nom)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nom)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Prenom)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Prenom)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Mail)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mailweekend)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Mailweekend)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mail3)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Mail3)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.numero)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.numero)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.numero2)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.numero2)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.numero3)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.numero3)
+    </div>
+
+   
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProfilID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+-->
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <i class="icon-user"></i>
+                        <img class="pull-left" style="margin: 0 20px 20px 0" alt="" src="~/assets/demo/avatar/icon-profile.png">
+                        <div class="table-responsive">
+                            <h3>Jon Doe</h3>
+                            <table class="table table-condensed">
+                                <tr>
+                                    <td>
+                                       @Ressources.Resources.LastName
+                                    </td>
+                                    <td> @Html.DisplayFor(model => model.Nom)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                         @Ressources.Resources.FirstName
+                                    </td>
+                                    <td>@Html.DisplayFor(model => model.Prenom)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fa fa-envelope"></i>
+                                        @Html.DisplayNameFor(model => model.Mail)
+                                    </td>
+                                    <td>@Html.DisplayFor(model => model.Mail)</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <i class="fa fa-mobile"></i>
+                                        @Ressources.Resources.PhoneNumber
+                                    </td>
+                                    <td>(216) 98 765 432 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fa fa-mobile"></i>
+                                       @Ressources.Resources.PersonalPhone
+                                    </td>
+                                    <td>@Html.DisplayFor(model => model.numero)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fa fa-phone-square"></i>
+                                         @Ressources.Resources.additionalphone
+                                    </td>
+                                    <td>--</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
+
+                </div>
+                <hr />
+               
+            </div>
+        </div>
+    </div>
+</div>

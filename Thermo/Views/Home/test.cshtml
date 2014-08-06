@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="jQuery Gauge, Gauge, Linear Gauge, Vertical Gauge, Horizontal Gauge" />
+    <title id='Description'>This sample demonstrates the basic Linear Gauge settings.</title>
+    <link rel="stylesheet" href="~/gauge/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="~/assets/gauge/scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/scripts/demos.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxexpander.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxchart.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxgauge.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxradiobutton.js"></script>
+    <script type="text/javascript" src="~/assets/gauge/jqwidgets/jqxslider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var majorTicks = { size: '10%', interval: 10 },
+                minorTicks = { size: '5%', interval: 2.5, style: { 'stroke-width': 1, stroke: '#aaaaaa' } },
+                labels = { interval: 20 };
+            $('#gauge').jqxLinearGauge({
+                orientation: 'vertical',
+                labels: labels,
+                ticksMajor: majorTicks,
+                ticksMinor: minorTicks,
+                max: 80,
+                value: -60,
+                pointer: { size: '6%' },
+                colorScheme: 'scheme05',
+                ranges: [
+                { startValue: -10, endValue: 10, style: { fill: '#FFF157', stroke: '#FFF157' } },
+                { startValue: 10, endValue: 35, style: { fill: '#FFA200', stroke: '#FFA200' } },
+                { startValue: 35, endValue: 80, style: { fill: '#FF4800', stroke: '#FF4800' } }]
+            });
+            $('#gauge').jqxLinearGauge('value', 50);
+
+            $('#panel').jqxExpander({ width: 120, width: 280, height: 310, toggleMode: 'none', showArrow: false });
+            $('#showAnimationButton').jqxButton({ width: 85 });
+
+            $('#isVerticalCheckbox').jqxCheckBox({ checked: true });
+            $('#showTicksCheckbox').jqxCheckBox({ checked: true });
+            $('#showLabelsCheckbox').jqxCheckBox({ checked: true });
+            $('#showRangesCheckbox').jqxCheckBox({ checked: true });
+            $('#showBackgroundCheckbox').jqxCheckBox({ checked: true });
+
+            $('#labelsNearRadio').jqxRadioButton({ groupName: 'labels-position' });
+            $('#labelsFarRadio').jqxRadioButton({ groupName: 'labels-position' });
+            $('#labelsBothRadio').jqxRadioButton({ checked: true, groupName: 'labels-position' });
+            $('#ticksNearRadio').jqxRadioButton({ groupName: 'ticks-position' });
+            $('#ticksFarRadio').jqxRadioButton({ groupName: 'ticks-position' });
+            $('#ticksBothRadio').jqxRadioButton({ checked: true, groupName: 'ticks-position' });
+
+            $('#isVerticalCheckbox').on('change', function (e) {
+                if (e.args.checked) {
+                    $('#gauge').jqxLinearGauge('width', '100px');
+                    $('#gauge').jqxLinearGauge('height', '300px');
+                    $('#gauge').jqxLinearGauge('orientation', 'vertical');
+                } else {
+                    $('#gauge').jqxLinearGauge('height', '100px');
+                    $('#gauge').jqxLinearGauge('width', '300px');
+                    $('#gauge').jqxLinearGauge('orientation', 'horizontal');
+                }
+            });
+
+            $('#showTicksCheckbox').on('change', function (e) {
+                if (e.args.checked) {
+                    majorTicks.visible = true;
+                    minorTicks.visible = true;
+                } else {
+                    majorTicks.visible = false;
+                    minorTicks.visible = false;
+                }
+                $('#gauge').jqxLinearGauge('ticksMajor', majorTicks);
+                $('#gauge').jqxLinearGauge('ticksMinor', minorTicks);
+            });
+
+            $('#showLabelsCheckbox').on('change', function (e) {
+                if (e.args.checked) {
+                    labels.visible = true;
+                } else {
+                    labels.visible = false;
+                }
+                $('#gauge').jqxLinearGauge('labels', labels);
+            });
+
+            $('#showRangesCheckbox').on('change', function (e) {
+                if (e.args.checked) {
+                    $('#gauge').jqxLinearGauge('showRanges', true);
+                } else {
+                    $('#gauge').jqxLinearGauge('showRanges', false);
+                }
+            });
+
+            $('#showBackgroundCheckbox').on('change', function (e) {
+                if (e.args.checked) {
+                    $('#gauge').jqxLinearGauge('background', { visible: true });
+                } else {
+                    $('#gauge').jqxLinearGauge('background', { visible: false });
+                }
+            });
+
+            $('#labelsNearRadio').on('checked', function () {
+                labels.position = 'near';
+                $('#gauge').jqxLinearGauge('labels', labels);
+            });
+            $('#labelsFarRadio').on('checked', function () {
+                labels.position = 'far';
+                $('#gauge').jqxLinearGauge('labels', labels);
+            });
+            $('#labelsBothRadio').on('checked', function () {
+                labels.position = 'both';
+                $('#gauge').jqxLinearGauge('labels', labels);
+            });
+            $('#ticksNearRadio').on('checked', function () {
+                $('#gauge').jqxLinearGauge('ticksPosition', 'near');
+            });
+            $('#ticksFarRadio').on('checked', function () {
+                $('#gauge').jqxLinearGauge('ticksPosition', 'far');
+            });
+            $('#ticksBothRadio').on('checked', function () {
+                $('#gauge').jqxLinearGauge('ticksPosition', 'both');
+            });
+            $('#showAnimationButton').on('click', function () {
+                $('#gauge').jqxLinearGauge('animationDuration', 0);
+                $('#gauge').jqxLinearGauge('value', -80);
+                $('#gauge').jqxLinearGauge('animationDuration', 1000);
+                $('#gauge').jqxLinearGauge('value', 10);
+            });
+        });
+    </script>
+    <style type="text/css">
+    .demo-options
+    {
+        list-style: none;
+        padding: 0px;
+        margin: 10px;
+    }
+    .demo-options li
+    {
+        padding: 3px;
+        font-family: Verdana;
+        font-size: 12px;        
+    }
+    </style>
+</head>
+<body class='default'>
+        <div class="demo-gauge">
+        <div id="gauge" style="margin-left: 20px; float: left;"></div>
+      
+        
+    </div>
+</body>
+</html>

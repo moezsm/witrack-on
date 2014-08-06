@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "test";
+    Layout = "~/Views/Shared/_layoutiframe.cshtml";
+}
+
+@{
+    ViewBag.Title = "sms";
+}
+
+<h2>sms</h2>
+@ViewData["acount"]
+
+    <h3>Send an SMS?</h3>
+
+    <a class="btn btn-primary" type="button" @Html.ActionLink("Send", "sms", "Groupe")
+    
+

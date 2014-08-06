@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "adduser";
+
+    Layout = "~/Views/Shared/_LayoutMultiselect.cshtml";
+}
+
+@model Thermo.Form.UserinfoView
+
+@if (ViewBag.YouSelected != null) {
+
+    <div> You Selected:  @ViewBag.YouSelected</div>
+
+}
+
+@using (Html.BeginForm()) {
+    <legend>Select Users</legend>
+    <fieldset>
+        <form class="form-horizontal row-border">
+        
+
+        
+        <div class="editor-field">
+
+    @Html.ListBox("listuser", ViewBag.Userlist as MultiSelectList,
+
+    new { @class = "chzn-select", data_placeholder = "Choose users...", style = "width:350px;" })
+
+</div>
+
+        <p>
+
+            <input class="btn btn-primary"  type="submit" value="Save" />
+
+        </p>
+        </form>
+    </fieldset>
+
+}
+<script src="@Url.Content("~/Scripts/jquery-1.7.1.js")"></script>
+<script src="@Url.Content("~/chosen/chosen.jquery.js")" type="text/javascript"></script>
+<link href="@Url.Content("~/chosen/chosen.css")" rel="stylesheet"  type="text/css" />
+<script >    $(".chzn-select").chosen(); </script>

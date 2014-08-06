@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdmEmM5dwA0OmQ7I1WH1yeAAAAAACAAAAAAAQZgAAAAEAACAAAAAQI/76f/vKQYorbcojO0VO50us20D0+F8TMPMg/uANEQAAAAAOgAAAAAIAACAAAAADV8D1b6uHm2VD6p5klPaXxCX6MN4A+5aB0cHLoRhZsyAAAADVImyipVByK0csKTnseIrRRUU19I1miKYSaHk6dmfPXkAAAABQrNcgcNgc+dPaGQTmS2QWdXiLXFwCAVyBKbvxvKoJ5YmYEX+9c53EV7ZKjkmWcejqOaf+xVC7SPpe2vkN8Ou1</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.Smarterasp.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/caruossel/css/style.css">
+      <publishTime>05/27/2014 14:41:15</publishTime>
+    </File>
+    <File Include="assets/caruossel/images/button-next.png">
+      <publishTime>05/27/2014 09:19:38</publishTime>
+    </File>
+    <File Include="assets/caruossel/images/button-previous.png">
+      <publishTime>05/27/2014 09:19:38</publishTime>
+    </File>
+    <File Include="assets/caruossel/images/next.png">
+      <publishTime>05/27/2014 14:31:07</publishTime>
+    </File>
+    <File Include="assets/caruossel/images/prev.png">
+      <publishTime>05/27/2014 14:31:07</publishTime>
+    </File>
+    <File Include="assets/caruossel/js/jquery.flexisel.js">
+      <publishTime>05/27/2014 10:46:08</publishTime>
+    </File>
+    <File Include="assets/css/styles.mind87d.css">
+      <publishTime>10/04/2014 11:01:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/aniss.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/corbett.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/dangerfield.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/doyle.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/jackson.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/jobs.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/johansson.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/paton.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/potter.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/tennant.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/avatar/watson.png">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-alerts.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-calendar.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-chartjs.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-datatables.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/demo/demo-formcomponents.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-formvalidation.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-formwizard.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-gallery-simple.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-gmaps.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-index.js">
+      <publishTime>02/04/2014 16:51:56</publishTime>
+    </File>
+    <File Include="assets/demo/demo-inlinecharts.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-mask.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-morrisjs.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-nestable.min.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo-slider.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/demo.js">
+      <publishTime>02/04/2014 10:02:10</publishTime>
+    </File>
+    <File Include="assets/demo/demos-jqvmap.js">
+      <publishTime>12/11/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/arch_building.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/arch_fireescape.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/arch_fountain.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/ind_code.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/ind_corrosion_hazard.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/ind_demolition.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/ind_machinery.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/ind_rusty.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/nature_enchantedcreek.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/nature_gardens.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/nature_mill.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/nature_mossytree.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/nature_trees.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/nature_woodstump.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_arch_building.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_arch_fireescape.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_arch_fountain.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_ind_code.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_ind_corrosion_hazard.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_ind_demolition.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_ind_machinery.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_ind_rusty.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_nature_enchantedcreek.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_nature_gardens.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_nature_mill.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_nature_trees.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/images/thmb_nature_woodstump.jpg">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/demo/variations/default.css">
+      <publishTime>11/12/2013 15:31:14</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons/css/glyphicons.min.css">
+      <publishTime>11/12/2013 15:31:16</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons/font/glyphicons-halflings-regular.eot">
+      <publishTime>11/12/2013 15:31:16</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons/font/glyphicons-halflings-regular.svg">
+      <publishTime>11/12/2013 15:31:16</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons/font/glyphicons-halflings-regular.ttf">
+      <publishTime>11/12/2013 15:31:16</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons/font/glyphicons-halflings-regular.woff">
+      <publishTime>11/12/2013 15:31:16</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons/font/glyphicons-halflings-regulard41d.eot">
+      <publishTime>11/12/2013 15:31:16</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqx-all.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxbuttongroup.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxbuttons.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxcalendar.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxchart.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxcheckbox.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxcolorpicker.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxcombobox.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdata.export.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdata.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdatatable.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdatetimeinput.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdocking.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdockpanel.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdragdrop.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxdropdownbutton.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxexpander.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgauge.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.aggregates.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.columnsresize.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.edit.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.export.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.filter.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.grouping.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="assets/gauge/jqwidgets/jqxgrid.pager.js">
+      <publishTime>05/23/2014 14:39:02</publishTime>
+    </File>
+    <File Include="Details.asmx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/11/2013 16:54:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/11/2013 16:54:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/06/2014 10:10:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,119 @@
+﻿@model Thermo.Models.Equipement
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+        <div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>@Ressources.Resources.createequipment</h4>
+        <div class="options">   
+            <a href="javascript:;" class="panel-collapse"><i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div class="panel-body collapse in">
+    <fieldset>
+
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.Name</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.Name)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.Name)</p>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="selector1" class="col-sm-2 control-label">@Html.LabelFor(model => model.ZoneID, "Zone")</label>
+            <div class="col-sm-4">@Html.DropDownList("ZoneID", String.Empty)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.ZoneID)</p>
+            </div>
+        </div>
+        <br />
+         <div class="form-group">
+            <label for="selector1" class="col-sm-2 control-label">@Ressources.Resources.Sensors</label>
+            <div class="col-sm-4">@Html.DropDownList("SensorID", String.Empty)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.SensorID)</p>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.SondeId</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.Numero)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.Numero)</p>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.HighAlarm</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.HighAlarm)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.HighAlarm)</p>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.LowAlarm</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.LowAlarm)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.LowAlarm)</p>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.Firstalarme</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" value="1" @Html.EditorFor(model => model.FirstAlarm)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.FirstAlarm)</p>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+           
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.frequency</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.RepititionAlarm)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.RepititionAlarm)</p>
+            </div>
+        </div>
+
+        <br />
+      
+         <br />
+        <p>
+            <input type="submit" class="btn btn-primary" value="@Ressources.Resources.create" />
+        </p>
+    </fieldset>
+        </div>
+        </div>
+}
+
+<div>
+   <a class="btn btn-primary" @Html.ActionLink(Ressources.Resources.BacktoList, "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

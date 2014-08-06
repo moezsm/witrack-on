@@ -1,0 +1,242 @@
+﻿@model Thermo.Models.Equipement
+@using Thermo.Helpers
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_layout2.cshtml";
+}
+@{
+    string myVar1 = @DateTime.Now.ToString("yyyy-dd-MM hh:mm:ss");
+}
+@section Variables {
+    <script type="text/javascript">
+        var variable1 = '@myVar1';
+       
+    </script>
+}
+@section report{
+
+    <div class="options">
+        <div class="btn-toolbar" style="clear: both; text-align: right; margin-right: 19px;">
+
+            <div class="btn-group hidden-xs">
+
+                <a style="clear: both; text-align: right;" href='#' class="btn btn-default dropdown-toggle" data-toggle='dropdown'><i class="fa fa-cloud-download"></i><span class="hidden-xs hidden-sm hidden-md">@Ressources.Resources.Report</span> <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="~/@CultureHelper.GetCurrentCulture()/Reportdev/Report/@Model.EquipementID">Rapport valeurs</a></li>
+                    <li><a href="~/@CultureHelper.GetCurrentCulture()/Reportdev/ReportCourbe/@Model.EquipementID">Courbe</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+}
+<h2>@Ressources.Resources.sondesdetail</h2>
+
+
+
+
+
+
+
+
+<div class="col-md-12 col-lg-12" style="padding-left: 0px">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>@Resources.Graphs</h4>
+            <div class="options">
+            </div>
+        </div>
+        <div class="panel-body" style="height: 600px; min-width: 500px; padding-left: 0px; padding-right: 0px;">
+            @if (Model.SensorID == 1)
+            {
+                <iframe src="~/fr/Equipement/graph/@Model.EquipementID" style="height: 100%; width: 100%;" frameborder="0"></iframe>
+            }
+            @if (Model.SensorID == 2)
+            {
+                <iframe src="~/fr/Equipement/graphth/@Model.EquipementID" style="height: 100%; width: 100%;" frameborder="0"></iframe>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4><i class="icon-highlight fa fa-calendar"></i>@Resources.detailsfor @Html.DisplayFor(modelItem => Model.Name)</h4>
+                <div class="options">
+                    <a href="javascript:;"><i class="fa fa-cog"></i></a>
+                    <a href="javascript:;"><i class="fa fa-wrench"></i></a>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="table-flipscroll">
+                    <br />
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>@Resources.info </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Resources.SondeId</td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.Numero)
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td>@Resources.LastName </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.Name)
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Zone </td>
+                                <td>
+
+                                    @Html.DisplayFor(modelItem => Model.Zones.Name)
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td>@Resources.Location </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.Zones.Location.Name)
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td>@Resources.Hightalarme </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.HighAlarm)
+                                </td>
+
+
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>@Resources.Lowalarme </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.LowAlarm)
+                                </td>
+
+
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>@Resources.Datecreation </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.DateCreation)
+                                </td>
+
+
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>@Resources.type  @Resources.Seonsors </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => Model.Sensors.name)
+                                </td>
+
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#Measurement" data-toggle="tab"><i class="fa fa-list visible-xs icon-scale"></i><span class="hidden-xs">@Resources.Measurements
+                        </span></a></li>
+                        <li><a href="#Alarmes" data-toggle="tab"><i class="fa fa-list visible-xs icon-scale"></i><span class="hidden-xs">Alarmes</span></a></li>
+
+                    </ul>
+                </h4>
+                <div class="options">
+                    <a href="javascript:;"><i class="fa fa-cog"></i></a>
+                    <a href="javascript:;"><i class="fa fa-wrench"></i></a>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="Measurement">
+                        <ul class="panel-threads" style="height: 345px; overflow: auto;">
+                            @if ( Model.SensorID == 1 )
+                            {
+                           @Html.Partial("DetailsTemperature")
+                            }
+                             @if ( Model.SensorID == 2 )
+                            {
+                           @Html.Partial("DetailsTh")
+                            }
+                        </ul>
+                    </div>
+                    <div class="tab-pane " id="Alarmes">
+                        <ul class="panel-threads">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+
+                                        <th>@Resources.Seonsors</th>
+                                        <th>@Resources.Startdate</th>
+                                        <th>@Resources.Enddate</th>
+                                        <th>Status</th>
+                                        <th>@Resources.Closed</th>
+                                        <th>Justifié</th>
+                                        <th>@Resources.Value</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var alarme in ViewData["alarme"] as List<Thermo.Models.Alarme>)
+                                    {
+                                        <tr>
+                                            <td>@Html.DisplayFor(modemItem3 => alarme.EquipementID)</td>
+                                            <td>@Html.DisplayFor(modemItem3 => alarme.StartDate)</td>
+                                            @if (alarme.fin == "No")
+                                            {
+                                                <td>-----                      -                        .</td> 
+                                            }
+                                            else
+                                            {
+                                                <td>@Html.DisplayFor(modelItem3 => alarme.EndDate)</td>
+                                            }
+                                            <td>@Html.DisplayFor(modemItem3 => alarme.Status)</td>
+                                            <td>@Html.DisplayFor(modemItem3 => alarme.fin)</td>
+                                            <td>@Html.DisplayFor(modemItem3 => alarme.closed)</td>
+                                            <td>@Html.DisplayFor(modemItem3 => alarme.Values)</td>
+                                        </tr>
+                                  
+                                    }
+
+
+
+                                </tbody>
+                            </table>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

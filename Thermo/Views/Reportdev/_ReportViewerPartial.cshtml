@@ -1,0 +1,9 @@
+﻿@{DXWebApplication1.Models.DetailReport detail1 = ViewData["detail"] as DXWebApplication1.Models.DetailReport;}
+@Html.DevExpress().ReportViewer(settings =>
+{
+    settings.Name = "ReportViewer";
+    settings.CallbackRouteValues = new { Controller = "Reportdev", Action = "ReportViewerPartial", EquipementID = ViewData["EquipementID"], username = ViewData["username"], location = ViewData["location"], zone = ViewData["zone"], datereport = ViewData["datereport"], datedebut = ViewData["datedebut"], datefin = ViewData["datefin"], numerosonde = ViewData["numerosonde"], max = ViewData["max"], min = ViewData["min"] };
+    settings.ExportRouteValues = new { Controller = "Reportdev", Action = "ReportViewerPartialExport", EquipementID = ViewData["EquipementID"], username = ViewData["username"], location = ViewData["location"], zone = ViewData["zone"], datereport = ViewData["datereport"], datedebut = ViewData["datedebut"], datefin = ViewData["datefin"], numerosonde = ViewData["numerosonde"], max = ViewData["max"], min = ViewData["min"] };
+    settings.Report = (DXWebApplication1.Reports.XtraReport1)ViewData["Report"];
+    //settings.Report = (PrimariusScope.Net.Reports.SiteReport)ViewData["Report"];
+}).GetHtml()

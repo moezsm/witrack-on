@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Average" xml:space="preserve">
+    <value>Moyenne</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Collapseall" xml:space="preserve">
+    <value>Réduire</value>
+  </data>
+  <data name="Createnew" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tableau de bord</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>Modifier profile</value>
+  </data>
+  <data name="EquipementsLastsmeasures" xml:space="preserve">
+    <value>Dernières mesures des équipements</value>
+  </data>
+  <data name="Equipementslist" xml:space="preserve">
+    <value>Liste des équipements</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Evènements</value>
+  </data>
+  <data name="Expandall" xml:space="preserve">
+    <value>Etendre</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>pour</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Consignes</value>
+  </data>
+  <data name="LastdateofMeasurement" xml:space="preserve">
+    <value>Dernière date de mesure</value>
+  </data>
+  <data name="LastMesure" xml:space="preserve">
+    <value>Dernière mesure</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>Lieux</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="Maximumregistred" xml:space="preserve">
+    <value>Maximum enregistré</value>
+  </data>
+  <data name="Minimumregistred" xml:space="preserve">
+    <value>Minimum enregistré</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Responsability" xml:space="preserve">
+    <value>Responsable</value>
+  </data>
+  <data name="Responsables" xml:space="preserve">
+    <value>Responsables</value>
+  </data>
+  <data name="Seonsors" xml:space="preserve">
+    <value>Sondes</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Numéro de série</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiques</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Voir profile</value>
+  </data>
+  <data name="BacktoList" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Fermée</value>
+  </data>
+  <data name="Datecreation" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="Enddate" xml:space="preserve">
+    <value>Date fin</value>
+  </data>
+  <data name="Hightalarme" xml:space="preserve">
+    <value>Alarme Haute</value>
+  </data>
+  <data name="Justify" xml:space="preserve">
+    <value>Justifier</value>
+  </data>
+  <data name="Lowalarme" xml:space="preserve">
+    <value>Alarme basse</value>
+  </data>
+  <data name="Measurements" xml:space="preserve">
+    <value>Mesures</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Startdate" xml:space="preserve">
+    <value>Date début</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="ListofLocations" xml:space="preserve">
+    <value>Liste des lieux</value>
+  </data>
+  <data name="alarmlist" xml:space="preserve">
+    <value>Liste des alarmes</value>
+  </data>
+  <data name="confirmpassword" xml:space="preserve">
+    <value>Confirmer mot de passe</value>
+  </data>
+  <data name="Createanewaccount" xml:space="preserve">
+    <value>Créer un nouveau compte</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="Equipementname" xml:space="preserve">
+    <value>Nom d'équipement</value>
+  </data>
+  <data name="EvenementType" xml:space="preserve">
+    <value>Type d'évènement</value>
+  </data>
+  <data name="eventslist" xml:space="preserve">
+    <value>Liste des évènements</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lieu</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="overview" xml:space="preserve">
+    <value>aperçu général</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="Pleaseconfirmyourpassword" xml:space="preserve">
+    <value>Veuillez confirmer votre mot de passe</value>
+  </data>
+  <data name="Pleaseenterausername" xml:space="preserve">
+    <value>Veuillez entrer votre nom d'utilisateur</value>
+  </data>
+  <data name="pleaseenteryourinformations" xml:space="preserve">
+    <value>Veuillez saisir vos données</value>
+  </data>
+  <data name="Pleaseenteryourpassword" xml:space="preserve">
+    <value>Veuillez entrer votre mot de passe, il doit contenir 6 caractères</value>
+  </data>
+  <data name="problist" xml:space="preserve">
+    <value>Liste des sondes</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Inscription</value>
+  </data>
+  <data name="role" xml:space="preserve">
+    <value>Rôle</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="userslist" xml:space="preserve">
+    <value>Liste des utilisateurs</value>
+  </data>
+  <data name="zonelist" xml:space="preserve">
+    <value>Liste des zones</value>
+  </data>
+  <data name="actionirr" xml:space="preserve">
+    <value>Supprimer est une action irréversible</value>
+  </data>
+  <data name="additionalmail" xml:space="preserve">
+    <value>Mail additionnel</value>
+  </data>
+  <data name="additionalphone" xml:space="preserve">
+    <value>Tél additionnel</value>
+  </data>
+  <data name="baseelement" xml:space="preserve">
+    <value>Les éléments de base</value>
+  </data>
+  <data name="becareful" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="chooseuser" xml:space="preserve">
+    <value>Choisir l'utilisateur</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="createequipment" xml:space="preserve">
+    <value>Créer un nouveau équipement</value>
+  </data>
+  <data name="createnewzone" xml:space="preserve">
+    <value>Créer une nouvelle zone</value>
+  </data>
+  <data name="deleteequipment" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer cet équipement?</value>
+  </data>
+  <data name="detailchambre" xml:space="preserve">
+    <value>Détail de la chambre froide</value>
+  </data>
+  <data name="detailsfor" xml:space="preserve">
+    <value>Détail pour</value>
+  </data>
+  <data name="Editequipement" xml:space="preserve">
+    <value>Editer éuipement</value>
+  </data>
+  <data name="editlocation" xml:space="preserve">
+    <value>Editer lieu</value>
+  </data>
+  <data name="edituserinfo" xml:space="preserve">
+    <value>Veuillez éditer vos informations</value>
+  </data>
+  <data name="editzone" xml:space="preserve">
+    <value>Editer zone</value>
+  </data>
+  <data name="enterfrequency" xml:space="preserve">
+    <value>Veuillez entrer la fréquence de rappel</value>
+  </data>
+  <data name="enternameequip" xml:space="preserve">
+    <value>Veuillez entrer le nom de l'équipement</value>
+  </data>
+  <data name="enternamelocation" xml:space="preserve">
+    <value>Veuillez entrer le nom</value>
+  </data>
+  <data name="enternightnumber" xml:space="preserve">
+    <value>Veuillez entrer votre numéro de tél de nuit</value>
+  </data>
+  <data name="enterphone" xml:space="preserve">
+    <value>Veuillez entrer votre numéro de tél</value>
+  </data>
+  <data name="enterserialnum" xml:space="preserve">
+    <value>Veuillez entrer l'Id de l'équipement</value>
+  </data>
+  <data name="enteryourlastname" xml:space="preserve">
+    <value>Veuillez entrer votre prénom</value>
+  </data>
+  <data name="enteryourlocation" xml:space="preserve">
+    <value>Veuillez entrer un nom d'un lieu. Il sera utilisé plus tard pour ajouter un equipements.</value>
+  </data>
+  <data name="enteryourmail" xml:space="preserve">
+    <value>Veuillez entrer votre mail</value>
+  </data>
+  <data name="enteryourname" xml:space="preserve">
+    <value>Veuillez entrer votre nom</value>
+  </data>
+  <data name="Equipement" xml:space="preserve">
+    <value>L'équipement</value>
+  </data>
+  <data name="Firstalarme" xml:space="preserve">
+    <value>Première alarme</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>Fréquence de rappel</value>
+  </data>
+  <data name="Graphs" xml:space="preserve">
+    <value>Graphique</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="HighAlarm" xml:space="preserve">
+    <value>Alarme haute</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="locationdetail" xml:space="preserve">
+    <value>Détail de lieu</value>
+  </data>
+  <data name="locationname" xml:space="preserve">
+    <value>Nom de lieu</value>
+  </data>
+  <data name="LowAlarm" xml:space="preserve">
+    <value>Alarme faible</value>
+  </data>
+  <data name="Mailweekend" xml:space="preserve">
+    <value>Mail de weekend</value>
+  </data>
+  <data name="moreinfo" xml:space="preserve">
+    <value>Plus d'info</value>
+  </data>
+  <data name="newlocation" xml:space="preserve">
+    <value>Créer un nouveau lieu</value>
+  </data>
+  <data name="newzone" xml:space="preserve">
+    <value>Créer un nouveau zone</value>
+  </data>
+  <data name="NightNumber" xml:space="preserve">
+    <value>Numéro de tél de nuit</value>
+  </data>
+  <data name="option1" xml:space="preserve">
+    <value>Si vous voulez vraiment supprimer cet objet cliker sur le bouton supprimer</value>
+  </data>
+  <data name="option2" xml:space="preserve">
+    <value>Cliquez sur Retour à la liste pour annuler</value>
+  </data>
+  <data name="PersonalPhone" xml:space="preserve">
+    <value>Tél personnel</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Nouméro de tél</value>
+  </data>
+  <data name="popupfirst" xml:space="preserve">
+    <value>Veuillez entrer la temporisation de déclenchement de l'alarme</value>
+  </data>
+  <data name="popuphight" xml:space="preserve">
+    <value>Veuillez entrez une valeur de l'alarme haute. C'est la valeur pour le déclenchement de l'alarme pour cet équipement</value>
+  </data>
+  <data name="popuplow" xml:space="preserve">
+    <value>Veuillez entrez une valeur de l'alarme faible. C'est la valeur pour le déclenchement de l'alarme pour cet équipement</value>
+  </data>
+  <data name="SelectUsers" xml:space="preserve">
+    <value>Sélectionner l'utilisateur</value>
+  </data>
+  <data name="Sensors" xml:space="preserve">
+    <value>Capteur</value>
+  </data>
+  <data name="SondeId" xml:space="preserve">
+    <value>Sonde Id</value>
+  </data>
+  <data name="sondesdetail" xml:space="preserve">
+    <value>Détail de sonde</value>
+  </data>
+  <data name="surewanttodelete" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer ce lieu?</value>
+  </data>
+  <data name="surewanttodeletezone" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer cet zone?</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Type de</value>
+  </data>
+  <data name="wahtcan" xml:space="preserve">
+    <value>Voici ce que vous pouvez faire</value>
+  </data>
+  <data name="weekendnumber" xml:space="preserve">
+    <value>Numéro de tél de weekend</value>
+  </data>
+  <data name="youradditional" xml:space="preserve">
+    <value>Veuillez entrer votre mail additionnel</value>
+  </data>
+  <data name="yourmailwkd" xml:space="preserve">
+    <value>Veuillez entrer votre mail de weekend</value>
+  </data>
+  <data name="yourweekendnumber" xml:space="preserve">
+    <value>Veuillez entrer votre numéro de weekend</value>
+  </data>
+  <data name="zonedetail" xml:space="preserve">
+    <value>Détail du zone</value>
+  </data>
+  <data name="deleteuser" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer cet  utilisateur?</value>
+  </data>
+  <data name="userinfo" xml:space="preserve">
+    <value>Informations de l'utilisateur</value>
+  </data>
+</root>

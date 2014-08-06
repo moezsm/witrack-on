@@ -1,0 +1,42 @@
+﻿@model Thermo.Models.Location
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_layoutiframe.cshtml";
+}
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <form class="form-horizontal">
+         <div class="form-group">
+            <label for="focusedinput" class="col-sm-4 control-label">@Ressources.Resources.locationname</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.Name)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.Name)</p>
+            </div>
+        </div>
+            </form>
+       
+        <br />
+        <p style="clear: both; text-align: right;">
+            <input type="submit" class="btn btn-primary" value="@Ressources.Resources.Createnew" />
+            <a href="~/fr/Location" class="btn ">@Resources.BacktoList</a>
+        </p>
+    </fieldset>
+}
+
+
+     
+    
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,929 @@
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.csprojResolveAssemblyReference.cache
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Thermo.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Thermo.pdb
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Antlr3.Runtime.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.Core.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\EntityFramework.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Data.Edm.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Data.OData.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Web.Infrastructure.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Newtonsoft.Json.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Net.Http.Formatting.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Spatial.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Helpers.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Http.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Http.OData.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Http.WebHost.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Mvc.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Optimization.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Razor.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Deployment.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Razor.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\WebGrease.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\WebMatrix.Data.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\WebMatrix.WebData.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\EntityFramework.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Newtonsoft.Json.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Net.Http.Formatting.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Helpers.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Http.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Http.WebHost.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Mvc.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Razor.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Deployment.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Razor.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\WebMatrix.Data.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\WebMatrix.WebData.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.Core.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Web.Http.OData.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Data.Edm.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Microsoft.Data.OData.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\System.Spatial.xml
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\de\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\es\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\fr\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\it\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ja\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ko\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\ru\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.dll
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.pdb
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.Initial.resources
+c:\users\maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.csproj.GenerateResource.Cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations._new.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermo\Thermo\bin\RazorEngine.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermo\Thermo\bin\RazorJS.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.evenement.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.recup.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Interop.TaskScheduler.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.csproj.ResolveComReference.cache
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.temperature.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.temperature2.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\FluentScheduler.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\FluentScheduler.pdb
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.enregdate.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.Equipement.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.equipementuser.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.locationzoneuser.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Thermo.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Thermo.pdb
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Antlr3.Runtime.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.Core.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\EntityFramework.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\FluentScheduler.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Data.Edm.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Data.OData.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Newtonsoft.Json.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\RazorEngine.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\RazorJS.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Net.Http.Formatting.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Spatial.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Helpers.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Http.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Http.OData.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Http.WebHost.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Mvc.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Optimization.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Razor.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\WebGrease.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\WebMatrix.Data.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\WebMatrix.WebData.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\FluentScheduler.pdb
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\EntityFramework.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Newtonsoft.Json.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Net.Http.Formatting.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Helpers.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Http.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Http.WebHost.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Mvc.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Razor.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\WebMatrix.Data.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\WebMatrix.WebData.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.Core.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Web.Http.OData.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Data.Edm.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\Microsoft.Data.OData.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\System.Spatial.xml
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\de\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\es\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\fr\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\it\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ja\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ko\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\ru\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.csprojResolveAssemblyReference.cache
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Interop.TaskScheduler.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.csproj.ResolveComReference.cache
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.Initial.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations._new.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.evenement.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.recup.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.temperature.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.temperature2.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.enregdate.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.Equipement.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.equipementuser.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.locationzoneuser.resources
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.csproj.GenerateResource.Cache
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.dll
+C:\Users\Maytech\Documents\Visual_Studio_2012\Projects\Thermo\Thermo\obj\Debug\Thermo.pdb
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.alarme.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.alarme3.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\Mvc.Mailer.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.lowlevel.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations._float.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\MvcCheckBoxList.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.responsable.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.resp.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\obj\Debug\Thermo.Migrations.check.resources
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNet.Highcharts.dll
+C:\Users\Maytech\documents\visual studio 2012\Projects\Thermo\Thermo\bin\DotNet.Highcharts.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Thermo.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Thermo.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Antlr3.Runtime.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNet.Highcharts.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.Core.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\EntityFramework.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\FluentScheduler.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Data.Edm.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Data.OData.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Mvc.Mailer.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\MvcCheckBoxList.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Newtonsoft.Json.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\RazorEngine.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\RazorJS.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Net.Http.Formatting.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Spatial.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Helpers.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Http.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Http.OData.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Http.WebHost.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Mvc.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Optimization.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Razor.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.WebPages.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\WebGrease.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\WebMatrix.Data.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\WebMatrix.WebData.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNet.Highcharts.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\FluentScheduler.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\EntityFramework.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Newtonsoft.Json.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Net.Http.Formatting.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Helpers.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Http.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Http.WebHost.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Mvc.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Razor.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.WebPages.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\WebMatrix.Data.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\WebMatrix.WebData.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.Core.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Web.Http.OData.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Data.Edm.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\Microsoft.Data.OData.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\System.Spatial.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\de\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\es\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\fr\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\it\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ja\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ko\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\ru\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Thermo.csprojResolveAssemblyReference.cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Interop.TaskScheduler.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Thermo.csproj.ResolveComReference.cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Thermo.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Thermo.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Thermo.Migrations.mdf.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\Thermovlocal\Thermo\Thermo\obj\Debug\Thermo.csproj.GenerateResource.Cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Thermo.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Thermo.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Antlr3.Runtime.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.Web.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNet.Highcharts.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.Core.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\EntityFramework.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\FluentScheduler.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Data.Edm.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Data.OData.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Mvc.Mailer.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\MvcCheckBoxList.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Newtonsoft.Json.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\RazorEngine.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\RazorJS.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Net.Http.Formatting.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Spatial.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Helpers.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Http.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Http.OData.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Http.WebHost.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Mvc.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Optimization.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Razor.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.WebPages.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\WebGrease.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\WebMatrix.Data.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\WebMatrix.WebData.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNet.Highcharts.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.Web.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\FluentScheduler.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\EntityFramework.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Newtonsoft.Json.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Net.Http.Formatting.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Helpers.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Http.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Http.WebHost.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Mvc.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Razor.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.WebPages.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\WebMatrix.Data.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\WebMatrix.WebData.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.Core.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Web.Http.OData.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Data.Edm.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\Microsoft.Data.OData.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\System.Spatial.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\de\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\es\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\fr\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\it\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ja\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ko\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ru\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.csprojResolveAssemblyReference.cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Interop.TaskScheduler.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.csproj.ResolveComReference.cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.mdf.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.csproj.GenerateResource.Cache
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.iTextSharp.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\itextsharp.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.iTextSharp.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ClosedXML.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DocumentFormat.OpenXml.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.OpenXml.dll
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\ClosedXML.xml
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\bin\DoddleReport.OpenXml.pdb
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.users.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.users2.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.users3.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.reapet.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.note.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.newnote.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.value.resources
+C:\Users\Maytech\Documents\Visual Studio 2012\Projects\thermo locale\Thermo\Thermo\obj\Debug\Thermo.Migrations.enreg.resources
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Thermo.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Thermo.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Antlr3.Runtime.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ClosedXML.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Charts.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Data.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Docs.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Office.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.PivotGrid.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Printing.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.RichEdit.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Sparkline.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.SpellChecker.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Utils.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxGauges.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxPivotGrid.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxScheduler.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxSpellChecker.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxThemes.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxTreeList.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.Mvc.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraCharts.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraCharts.v13.1.Web.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraGauges.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraGauges.v13.1.Presets.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraPivotGrid.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraReports.v13.1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraReports.v13.1.Web.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraScheduler.v13.1.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DocumentFormat.OpenXml.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.iTextSharp.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.OpenXml.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.Web.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.AspNet.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.Core.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OAuth.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OpenId.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DXWebApplication1.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\EntityFramework.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\FluentScheduler.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\itextsharp.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Data.Edm.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Data.OData.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Web.Infrastructure.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Mvc.Mailer.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\MvcCheckBoxList.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Newtonsoft.Json.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\RazorEngine.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\RazorJS.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Ressources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Net.Http.Formatting.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Spatial.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Helpers.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Http.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Http.OData.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Http.WebHost.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Mvc.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Optimization.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Razor.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.WebPages.Deployment.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.WebPages.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.WebPages.Razor.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\WebGrease.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\WebMatrix.Data.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\WebMatrix.WebData.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DXWebApplication1.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Ressources.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ClosedXML.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Data.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Docs.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Office.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.PivotGrid.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Printing.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.RichEdit.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.SpellChecker.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Utils.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxGauges.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxPivotGrid.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxScheduler.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxSpellChecker.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.ASPxTreeList.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.Mvc.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.Web.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraCharts.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraCharts.v13.1.Web.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraGauges.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraPivotGrid.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraReports.v13.1.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraReports.v13.1.Web.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DevExpress.XtraScheduler.v13.1.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.iTextSharp.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.OpenXml.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DoddleReport.Web.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\FluentScheduler.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\bin\EntityFramework.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Newtonsoft.Json.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Net.Http.Formatting.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Helpers.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Http.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Http.WebHost.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Mvc.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Razor.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.WebPages.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.WebPages.Deployment.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.WebPages.Razor.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\WebMatrix.Data.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\WebMatrix.WebData.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.AspNet.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.Core.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OAuth.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OpenId.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Web.Http.OData.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Data.Edm.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Microsoft.Data.OData.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\System.Spatial.xml
+C:\Develop\test\thermotrack\trunk\Thermo\bin\en\Ressources.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\fr\EntityFramework.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\it\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\de\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\es\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\fr\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\it\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ja\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ko\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\ru\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\zh-Hans\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\zh-Hant\System.Spatial.resources.dll
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.csprojResolveAssemblyReference.cache
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Interop.TaskScheduler.dll
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.csproj.ResolveComReference.cache
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.first.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations._new.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.first2.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.first3.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.user.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.Moduleequipement.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.required.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.profil.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.repeat.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.alarme.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.csproj.GenerateResource.Cache
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.dll
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.pdb
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.audit.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.newaudit.resources
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.inheritence.resources
+C:\Develop\test\thermotrack\trunk\Thermo\bin\DelegateDecompiler.dll
+C:\Develop\test\thermotrack\trunk\Thermo\bin\Mono.Reflection.dll
+C:\Develop\test\thermotrack\trunk\Thermo\obj\Debug\Thermo.Migrations.humidity.resources
+C:\Develop\test\witrackonline-github\Thermo\bin\Thermo.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Thermo.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\Antlr3.Runtime.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ClosedXML.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DelegateDecompiler.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Charts.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Data.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Docs.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Office.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.PivotGrid.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Printing.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.RichEdit.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Sparkline.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.SpellChecker.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Utils.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxGauges.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxPivotGrid.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxScheduler.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxSpellChecker.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxThemes.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxTreeList.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.Mvc.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraCharts.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraCharts.v13.1.Web.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraGauges.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraGauges.v13.1.Presets.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraPivotGrid.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraReports.v13.1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraReports.v13.1.Web.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraScheduler.v13.1.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DocumentFormat.OpenXml.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.iTextSharp.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.OpenXml.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.Web.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.AspNet.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.Core.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OAuth.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OpenId.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DXWebApplication1.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\EntityFramework.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\FluentScheduler.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\itextsharp.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Data.Edm.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Data.OData.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Web.Infrastructure.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Mono.Reflection.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Mvc.Mailer.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\MvcCheckBoxList.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Newtonsoft.Json.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\RazorEngine.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\RazorJS.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\Ressources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Net.Http.Formatting.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Spatial.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Helpers.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Http.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Http.OData.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Http.WebHost.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Mvc.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Optimization.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Razor.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.WebPages.Deployment.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.WebPages.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.WebPages.Razor.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\WebGrease.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\WebMatrix.Data.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\WebMatrix.WebData.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\DXWebApplication1.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\Ressources.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\ClosedXML.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Data.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Docs.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Office.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.PivotGrid.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Printing.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.RichEdit.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.SpellChecker.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Utils.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxGauges.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxPivotGrid.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxScheduler.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxSpellChecker.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.ASPxTreeList.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.Mvc.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.Web.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraCharts.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraCharts.v13.1.Web.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraGauges.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraPivotGrid.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraReports.v13.1.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraReports.v13.1.Web.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DevExpress.XtraScheduler.v13.1.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.iTextSharp.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.OpenXml.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\DoddleReport.Web.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\FluentScheduler.pdb
+C:\Develop\test\witrackonline-github\Thermo\bin\EntityFramework.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\Newtonsoft.Json.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Net.Http.Formatting.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Helpers.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Http.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Http.WebHost.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Mvc.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Razor.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.WebPages.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.WebPages.Deployment.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.WebPages.Razor.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\WebMatrix.Data.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\WebMatrix.WebData.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.AspNet.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.Core.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OAuth.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OpenId.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Web.Http.OData.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Data.Edm.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\Microsoft.Data.OData.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\System.Spatial.xml
+C:\Develop\test\witrackonline-github\Thermo\bin\en\Ressources.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Data.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Office.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.PivotGrid.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Printing.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Utils.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.Web.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraCharts.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraGauges.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraPivotGrid.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraReports.v13.1.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraReports.v13.1.Web.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\fr\EntityFramework.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\it\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\de\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\es\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\fr\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\it\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ja\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ko\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\ru\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\zh-Hans\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\bin\zh-Hant\System.Spatial.resources.dll
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.csprojResolveAssemblyReference.cache
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Interop.TaskScheduler.dll
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.csproj.ResolveComReference.cache
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.first.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations._new.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.first2.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.first3.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.user.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.Moduleequipement.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.required.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.profil.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.repeat.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.alarme.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.audit.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.newaudit.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.inheritence.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.Migrations.humidity.resources
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.csproj.GenerateResource.Cache
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.dll
+C:\Develop\test\witrackonline-github\Thermo\obj\Debug\Thermo.pdb

@@ -1,0 +1,47 @@
+﻿@model Thermo.Models.Zone
+@{
+    ViewBag.Title = "Edit";
+    //Layout = "~/Views/Shared/_layoutiframe.cshtml";
+    Layout = "~/Views/Shared/_layoutiframe.cshtml";
+}
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+         @Html.HiddenFor(model => model.ZoneID)
+        @Html.HiddenFor(model => model.DateCreation)
+        @Html.HiddenFor(model => model.UserID)
+        <legend>Zone</legend>
+
+        <form class="form-horizontal row-border">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">@Resources.LastName</label>
+                <div class="col-sm-3">
+                    <input id="Name" name="Name" value="@Model.Name" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content = "@Ressources.Resources.enteryourlocation ">
+                    
+                </div>
+            </div>
+             <br />
+            <div class="form-group">
+            <label class="col-sm-2 control-label">@Ressources.Resources.Location</label>
+                    <div class="editor-field">
+                        @Html.DropDownList("LocationID", String.Empty)
+                        @Html.ValidationMessageFor(model => model.LocationID)
+                    </div>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="@Resources.Save" />
+                <a class="btn btn-success" @Html.ActionLink(@Ressources.Resources.BacktoList, "Index")
+            </div>
+        </form>
+    </fieldset>
+}
+

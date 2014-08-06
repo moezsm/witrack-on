@@ -1,0 +1,86 @@
+﻿@model Thermo.Models.RegisterModel
+@{
+    ViewBag.Title = @Ressources.Resources.register;
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title</h1>
+ 
+</hgroup>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    if (!Html.ViewData.ModelState.IsValid)
+    {
+    <div class="alert alert-dismissable alert-danger">
+        @Html.ValidationSummary()
+    </div>
+    }
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>@Ressources.Resources.Createanewaccount</h4>
+            <div class="options">
+                <a href="javascript:;" class="panel-collapse"><i class="fa fa-chevron-down"></i></a>
+            </div>
+        </div>
+        <div class="panel-body collapse in">
+            <fieldset>
+                <legend>@Ressources.Resources.pleaseenteryourinformations</legend>
+
+                <form class="form-horizontal row-border">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.username :</label>
+                        <div class="col-sm-3">
+                            <input id="UserName" name="UserName" type="text" class="form-control popovers" placeholder="Username" data-trigger="hover" data-toggle="popover" data-content =" @Ressources.Resources.Pleaseenterausername " >
+                        </div>
+                    </div>
+
+                    <br />
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.password :</label>
+                        <div class="col-sm-3">
+                            <input id="Password" name="Password" type="password" class="form-control popovers" placeholder="Password" data-trigger="hover" data-toggle="popover" data-content= "@Ressources.Resources.Pleaseenteryourpassword">
+                        </div>
+                    </div>
+
+                    <br />
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.confirmpassword :</label>
+                        <div class="col-sm-3">
+                            <input id="ConfirmPassword" name="ConfirmPassword" type="password" class="form-control popovers" placeholder="Confirme Password" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.Pleaseconfirmyourpassword " >
+                        </div>
+                    </div>
+
+                    <br />
+                    
+                    
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.role :</label>
+                        <div class="col-sm-3">
+                            <select id="Role" name="Role" class="form-control">
+                                <option value="consultant">consultant</option>
+                                <!--<option value="admin">admin</option>-->
+                                <option value="super_admin">admin</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <br />
+                        <input type="submit" class="btn btn-primary" value=@Ressources.Resources.Save />
+                    </div>
+                </form>
+
+
+
+
+            </fieldset>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

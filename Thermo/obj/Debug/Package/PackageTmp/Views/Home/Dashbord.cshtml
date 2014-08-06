@@ -1,0 +1,188 @@
+﻿@using Thermo.Helpers
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_layoutvide.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12 clearfix">
+                            <h4 class="pull-left" style="margin: 0 0 10px">@Resources.Equipementslist <small>(@Resources.overview)</small></h4>
+                            <div class="pull-right">
+
+                                <a href="#" class="btn btn-default-alt btn-sm" onclick="jQuery('#example-advanced').treetable('expandAll'); return false;">@Resources.Expandall</a>
+                                <a href="#" class="btn btn-default-alt btn-sm" onclick="jQuery('#example-advanced').treetable('collapseAll'); return false;">@Resources.Collapseall</a>
+                            </div>
+                        </div>
+
+
+
+                        <table id="example-advanced">
+                            <thead>
+                                <tr>
+                                    <th>@Resources.LastName</th>
+                                    <th>@Resources.LastdateofMeasurement</th>
+
+                                    <th>@Resources.LastMesure</th>
+                                    <th>@Resources.Instructions</th>
+                                    <th>@Resources.SerialNumber</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ int i = 1;
+                                   int j = 1;
+                                   int k = 1;
+                                   bool chek = false;
+                                   string email = "email";
+                                   foreach (var item in ViewData["location"] as List<Thermo.Models.Location>)
+                                   {
+                
+                                    <tr data-tt-id= @i>
+                                        <td><span class='folder'>@Html.DisplayFor(modemItem => item.Name)</span></td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                    </tr>
+                                       foreach (var item2 in ViewData["zone"] as List<Thermo.Models.Zone>)
+                                       {
+                                           if (item2.LocationID == item.LocationID)
+                                           {
+                                    <tr data-tt-id= @i-@j data-tt-parent-id=@i>
+                                        <td><span class='folder'>@Html.DisplayFor(modemItem2 => item2.Name)</span></td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                    </tr>
+                                               foreach (var item3 in ViewData["equipement"] as List<Thermo.Models.Equipement>)
+                                               {
+                                                   if (item3.ZoneID == item2.ZoneID)
+                                                   {
+                                    <tr data-tt-id=@i-@j-@k data-tt-parent-id=@i-@j  >
+                                        <td><span class='file'></span><a href="~/@CultureHelper.GetCurrentCulture()/Equipement/Details/@(item3.EquipementID)" >@Html.DisplayFor(modemItem3 => item3.Name)</a></td>
+                                        <td>@item3.getLastdate()</td>
+                                        <td>@item3.getLastmeasure() °C</td>
+                                        <td>@item3.HighAlarm °C / @item3.LowAlarm °C</td>
+                                        <td>@item3.Numero </td>
+                                    </tr>
+                                                   }
+                                                   k++;
+                                               }
+                                           }
+                                           j++;
+                                       }
+                                       i++;
+                                   }
+    
+                                }
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row"  style="color: red; overflow: hidden;">
+        <div class="col-md-12">
+            
+
+                        <div id="Overview">
+                            @Html.Partial("Overview", ViewData["equipement"])
+                        </div>
+
+
+                 
+        </div>
+    </div>
+ 
+
+    <script type="text/javascript">
+
+
+
+
+        $('.button1').click(function () {
+
+            $('#Overview').load('@Url.Action("GetOverview", "Home")');
+
+                    });
+
+
+
+
+
+
+    </script>
+
+    <script>
+        $("#example-basic").treetable({ expandable: true });
+
+        $("#example-basic-static").treetable();
+
+        $("#example-basic-expandable").treetable({ expandable: true });
+
+        $("#example-advanced").treetable({ expandable: true });
+
+        // Highlight selected row
+        $("#example-advanced tbody").on("mousedown", "tr", function () {
+            $(".selected").not(this).removeClass("selected");
+            $(this).toggleClass("selected");
+        });
+
+        // Drag & Drop Example Code
+        $("#example-advanced .file, #example-advanced .folder").draggable({
+            helper: "clone",
+            opacity: .75,
+            refreshPositions: true, // Performance?
+            revert: "invalid",
+            revertDuration: 300,
+            scroll: true
+        });
+
+        $("#example-advanced .folder").each(function () {
+            $(this).parents("#example-advanced tr").droppable({
+                accept: ".file, .folder",
+                drop: function (e, ui) {
+                    var droppedEl = ui.draggable.parents("tr");
+                    $("#example-advanced").treetable("move", droppedEl.data("ttId"), $(this).data("ttId"));
+                },
+                hoverClass: "accept",
+                over: function (e, ui) {
+                    var droppedEl = ui.draggable.parents("tr");
+                    if (this != droppedEl[0] && !$(this).is(".expanded")) {
+                        $("#example-advanced").treetable("expandNode", $(this).data("ttId"));
+                    }
+                }
+            });
+        });
+
+        $("form#reveal").submit(function () {
+            var nodeId = $("#revealNodeId").val()
+
+            try {
+                $("#example-advanced").treetable("reveal", nodeId);
+            }
+            catch (error) {
+                alert(error.message);
+            }
+
+            return false;
+        });
+    </script>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

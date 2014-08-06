@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices-Detail-Response>
+<PollCount>5570</PollCount>
+<DevicesConnected>5</DevicesConnected>
+<LoopTime>4.891</LoopTime>
+<DataErrors>0</DataErrors>
+<DeviceName>OW_SERVER-Enet</DeviceName>
+<HostName>EDSOWSERVER</HostName>
+<MACAddress>00:50:C2:91:B6:FB</MACAddress>
+<owd_DS18S20 Description="Parasite power thermometer">
+<Name>DS18S20</Name>
+<Family>10</Family>
+<ROMId>51000802B3EE5410</ROMId>
+<Health>7</Health>
+<RawData>2C004B46FFFF0B10E800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+<PrimaryValue>22.0000 Deg C</PrimaryValue>
+<Temperature Units="Centigrade">22.0000</Temperature>
+<UserByte1 Writable="True">75</UserByte1>
+<UserByte2 Writable="True">70</UserByte2>
+</owd_DS18S20>
+<owd_DS18S20 Description="Parasite power thermometer">
+<Name>DS18S20</Name>
+<Family>10</Family>
+<ROMId>A2000802B401A210</ROMId>
+<Health>7</Health>
+<RawData>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+<PrimaryValue>0.0000 Deg C</PrimaryValue>
+<Temperature Units="Centigrade">0.0000</Temperature>
+<UserByte1 Writable="True">0</UserByte1>
+<UserByte2 Writable="True">0</UserByte2>
+</owd_DS18S20>
+<owd_DS18S20 Description="Parasite power thermometer">
+<Name>DS18S20</Name>
+<Family>10</Family>
+<ROMId>E3000802B437A110</ROMId>
+<Health>7</Health>
+<RawData>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+<PrimaryValue>0.0000 Deg C</PrimaryValue>
+<Temperature Units="Centigrade">0.0000</Temperature>
+<UserByte1 Writable="True">0</UserByte1>
+<UserByte2 Writable="True">0</UserByte2>
+</owd_DS18S20>
+<owd_DS18S20 Description="Parasite power thermometer">
+<Name>DS18S20</Name>
+<Family>10</Family>
+<ROMId>0D000802B3F2D110</ROMId>
+<Health>7</Health>
+<RawData>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+<PrimaryValue>0.0000 Deg C</PrimaryValue>
+<Temperature Units="Centigrade">0.0000</Temperature>
+<UserByte1 Writable="True">0</UserByte1>
+<UserByte2 Writable="True">0</UserByte2>
+</owd_DS18S20>
+<owd_DS18S20 Description="Parasite power thermometer">
+<Name>DS18S20</Name>
+<Family>10</Family>
+<ROMId>850008021EE01510</ROMId>
+<Health>7</Health>
+<RawData>2C004B46FFFF0D104200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+<PrimaryValue>22.0000 Deg C</PrimaryValue>
+<Temperature Units="Centigrade">22.0000</Temperature>
+<UserByte1 Writable="True">75</UserByte1>
+<UserByte2 Writable="True">70</UserByte2>
+</owd_DS18S20>
+</Devices-Detail-Response>

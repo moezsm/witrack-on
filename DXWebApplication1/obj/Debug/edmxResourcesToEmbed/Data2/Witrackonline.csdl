@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Alarmes">
+    <Key>
+      <PropertyRef Name="AlarmeID" />
+    </Key>
+    <Property Name="AlarmeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Values" Type="Single" Nullable="false" />
+    <Property Name="EquipementID" Type="Int32" Nullable="false" />
+    <Property Name="closed" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NoteId" Type="Int32" />
+    <NavigationProperty Name="Equipements" Relationship="Self.FK_dbo_Alarmes_dbo_Equipements_EquipementID" FromRole="Alarmes" ToRole="Equipements" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminID" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Enregistrements">
+    <Key>
+      <PropertyRef Name="EnregistrementID" />
+    </Key>
+    <Property Name="EnregistrementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Value" Type="Single" Nullable="false" />
+    <Property Name="Sondeid" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateTimeValue" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Equipements">
+    <Key>
+      <PropertyRef Name="EquipementID" />
+    </Key>
+    <Property Name="EquipementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ZoneID" Type="Int32" Nullable="false" />
+    <Property Name="DateCreation" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SensorID" Type="Int32" Nullable="false" />
+    <Property Name="HighAlarm" Type="Int32" />
+    <Property Name="LowAlarm" Type="Int32" />
+    <Property Name="Numero" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="FirstAlarm" Type="Int32" />
+    <Property Name="RepititionAlarm" Type="Int32" />
+    <NavigationProperty Name="Alarmes" Relationship="Self.FK_dbo_Alarmes_dbo_Equipements_EquipementID" FromRole="Equipements" ToRole="Alarmes" />
+    <NavigationProperty Name="Sensors" Relationship="Self.FK_dbo_Equipements_dbo_Sensors_SensorID" FromRole="Equipements" ToRole="Sensors" />
+    <NavigationProperty Name="Zones" Relationship="Self.FK_dbo_Equipements_dbo_Zones_ZoneID" FromRole="Equipements" ToRole="Zones" />
+    <NavigationProperty Name="Notes" Relationship="Self.FK_dbo_Notes_dbo_Equipements_Equipement_EquipementID" FromRole="Equipements" ToRole="Notes" />
+    <NavigationProperty Name="Responsables" Relationship="Self.FK_dbo_Responsables_dbo_Equipements_EquipementID" FromRole="Equipements" ToRole="Responsables" />
+    <NavigationProperty Name="Values" Relationship="Self.FK_dbo_Values_dbo_Equipements_EquipementID" FromRole="Equipements" ToRole="Values" />
+  </EntityType>
+  <EntityType Name="Evenements">
+    <Key>
+      <PropertyRef Name="EvenementID" />
+    </Key>
+    <Property Name="EvenementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EvenementType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Groupes">
+    <Key>
+      <PropertyRef Name="GroupeID" />
+    </Key>
+    <Property Name="GroupeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Services" Relationship="Self.GroupeServices" FromRole="Groupes" ToRole="Services" />
+    <NavigationProperty Name="Profils" Relationship="Self.ProfilGroupes" FromRole="Groupes" ToRole="Profils" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="LocationID" />
+    </Key>
+    <Property Name="LocationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreation" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Zones" Relationship="Self.FK_dbo_Zones_dbo_Locations_LocationID" FromRole="Locations" ToRole="Zones" />
+  </EntityType>
+  <EntityType Name="Measurements">
+    <Key>
+      <PropertyRef Name="MeasurementID" />
+    </Key>
+    <Property Name="MeasurementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="value" Type="Single" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Notes">
+    <Key>
+      <PropertyRef Name="NoteID" />
+    </Key>
+    <Property Name="NoteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Author" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Datecreation" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AlarmeID" Type="Int32" Nullable="false" />
+    <Property Name="Equipement_EquipementID" Type="Int32" />
+    <NavigationProperty Name="Equipements" Relationship="Self.FK_dbo_Notes_dbo_Equipements_Equipement_EquipementID" FromRole="Notes" ToRole="Equipements" />
+  </EntityType>
+  <EntityType Name="Profils">
+    <Key>
+      <PropertyRef Name="ProfilID" />
+    </Key>
+    <Property Name="ProfilID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Prenom" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mailweekend" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="numero" Type="Int32" />
+    <Property Name="numero2" Type="Int32" />
+    <Property Name="numero3" Type="Int32" />
+    <NavigationProperty Name="Groupes" Relationship="Self.ProfilGroupes" FromRole="Profils" ToRole="Groupes" />
+  </EntityType>
+  <EntityType Name="Responsables">
+    <Key>
+      <PropertyRef Name="ResponsableID" />
+    </Key>
+    <Property Name="ResponsableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EquipementID" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Equipements" Relationship="Self.FK_dbo_Responsables_dbo_Equipements_EquipementID" FromRole="Responsables" ToRole="Equipements" />
+  </EntityType>
+  <EntityType Name="Sensors">
+    <Key>
+      <PropertyRef Name="SensorID" />
+    </Key>
+    <Property Name="SensorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Equipements" Relationship="Self.FK_dbo_Equipements_dbo_Sensors_SensorID" FromRole="Sensors" ToRole="Equipements" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="ServiceID" />
+    </Key>
+    <Property Name="ServiceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Groupes" Relationship="Self.GroupeServices" FromRole="Services" ToRole="Groupes" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="webpages_Roles" Relationship="Self.webpages_UsersInRoles" FromRole="UserProfile" ToRole="webpages_Roles" />
+  </EntityType>
+  <EntityType Name="Values">
+    <Key>
+      <PropertyRef Name="ValueId" />
+    </Key>
+    <Property Name="ValueId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Val" Type="Single" Nullable="false" />
+    <Property Name="DateCreation" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EquipementID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Equipements" Relationship="Self.FK_dbo_Values_dbo_Equipements_EquipementID" FromRole="Values" ToRole="Equipements" />
+  </EntityType>
+  <EntityType Name="webpages_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="ConfirmationToken" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IsConfirmed" Type="Boolean" />
+    <Property Name="LastPasswordFailureDate" Type="DateTime" Precision="3" />
+    <Property Name="PasswordFailuresSinceLastSuccess" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordChangedDate" Type="DateTime" Precision="3" />
+    <Property Name="PasswordSalt" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordVerificationToken" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordVerificationTokenExpirationDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="webpages_OAuthMembership">
+    <Key>
+      <PropertyRef Name="Provider" />
+      <PropertyRef Name="ProviderUserId" />
+    </Key>
+    <Property Name="Provider" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProviderUserId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="UserProfile" Relationship="Self.webpages_UsersInRoles" FromRole="webpages_Roles" ToRole="UserProfile" />
+  </EntityType>
+  <EntityType Name="Zones">
+    <Key>
+      <PropertyRef Name="ZoneID" />
+    </Key>
+    <Property Name="ZoneID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LocationID" Type="Int32" Nullable="false" />
+    <Property Name="DateCreation" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Equipements" Relationship="Self.FK_dbo_Equipements_dbo_Zones_ZoneID" FromRole="Zones" ToRole="Equipements" />
+    <NavigationProperty Name="Locations" Relationship="Self.FK_dbo_Zones_dbo_Locations_LocationID" FromRole="Zones" ToRole="Locations" />
+  </EntityType>
+  <Association Name="FK_dbo_Alarmes_dbo_Equipements_EquipementID">
+    <End Role="Equipements" Type="Self.Equipements" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Alarmes" Type="Self.Alarmes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipements">
+        <PropertyRef Name="EquipementID" />
+      </Principal>
+      <Dependent Role="Alarmes">
+        <PropertyRef Name="EquipementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Equipements_dbo_Sensors_SensorID">
+    <End Role="Sensors" Type="Self.Sensors" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Equipements" Type="Self.Equipements" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sensors">
+        <PropertyRef Name="SensorID" />
+      </Principal>
+      <Dependent Role="Equipements">
+        <PropertyRef Name="SensorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Equipements_dbo_Zones_ZoneID">
+    <End Role="Zones" Type="Self.Zones" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Equipements" Type="Self.Equipements" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zones">
+        <PropertyRef Name="ZoneID" />
+      </Principal>
+      <Dependent Role="Equipements">
+        <PropertyRef Name="ZoneID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Notes_dbo_Equipements_Equipement_EquipementID">
+    <End Role="Equipements" Type="Self.Equipements" Multiplicity="0..1" />
+    <End Role="Notes" Type="Self.Notes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipements">
+        <PropertyRef Name="EquipementID" />
+      </Principal>
+      <Dependent Role="Notes">
+        <PropertyRef Name="Equipement_EquipementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Responsables_dbo_Equipements_EquipementID">
+    <End Role="Equipements" Type="Self.Equipements" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Responsables" Type="Self.Responsables" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipements">
+        <PropertyRef Name="EquipementID" />
+      </Principal>
+      <Dependent Role="Responsables">
+        <PropertyRef Name="EquipementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Values_dbo_Equipements_EquipementID">
+    <End Role="Equipements" Type="Self.Equipements" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Values" Type="Self.Values" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipements">
+        <PropertyRef Name="EquipementID" />
+      </Principal>
+      <Dependent Role="Values">
+        <PropertyRef Name="EquipementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Zones_dbo_Locations_LocationID">
+    <End Role="Locations" Type="Self.Locations" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Zones" Type="Self.Zones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="LocationID" />
+      </Principal>
+      <Dependent Role="Zones">
+        <PropertyRef Name="LocationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GroupeServices">
+    <End Role="Groupes" Type="Self.Groupes" Multiplicity="*" />
+    <End Role="Services" Type="Self.Services" Multiplicity="*" />
+  </Association>
+  <Association Name="ProfilGroupes">
+    <End Role="Groupes" Type="Self.Groupes" Multiplicity="*" />
+    <End Role="Profils" Type="Self.Profils" Multiplicity="*" />
+  </Association>
+  <Association Name="webpages_UsersInRoles">
+    <End Role="webpages_Roles" Type="Self.webpages_Roles" Multiplicity="*" />
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="Alarmes" EntityType="Self.Alarmes" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" />
+    <EntitySet Name="Enregistrements" EntityType="Self.Enregistrements" />
+    <EntitySet Name="Equipements" EntityType="Self.Equipements" />
+    <EntitySet Name="Evenements" EntityType="Self.Evenements" />
+    <EntitySet Name="Groupes" EntityType="Self.Groupes" />
+    <EntitySet Name="Locations" EntityType="Self.Locations" />
+    <EntitySet Name="Measurements" EntityType="Self.Measurements" />
+    <EntitySet Name="Notes" EntityType="Self.Notes" />
+    <EntitySet Name="Profils" EntityType="Self.Profils" />
+    <EntitySet Name="Responsables" EntityType="Self.Responsables" />
+    <EntitySet Name="Sensors" EntityType="Self.Sensors" />
+    <EntitySet Name="Services" EntityType="Self.Services" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" />
+    <EntitySet Name="Values" EntityType="Self.Values" />
+    <EntitySet Name="webpages_Membership" EntityType="Self.webpages_Membership" />
+    <EntitySet Name="webpages_OAuthMembership" EntityType="Self.webpages_OAuthMembership" />
+    <EntitySet Name="webpages_Roles" EntityType="Self.webpages_Roles" />
+    <EntitySet Name="Zones" EntityType="Self.Zones" />
+    <AssociationSet Name="FK_dbo_Alarmes_dbo_Equipements_EquipementID" Association="Self.FK_dbo_Alarmes_dbo_Equipements_EquipementID">
+      <End Role="Equipements" EntitySet="Equipements" />
+      <End Role="Alarmes" EntitySet="Alarmes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Equipements_dbo_Sensors_SensorID" Association="Self.FK_dbo_Equipements_dbo_Sensors_SensorID">
+      <End Role="Sensors" EntitySet="Sensors" />
+      <End Role="Equipements" EntitySet="Equipements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Equipements_dbo_Zones_ZoneID" Association="Self.FK_dbo_Equipements_dbo_Zones_ZoneID">
+      <End Role="Zones" EntitySet="Zones" />
+      <End Role="Equipements" EntitySet="Equipements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Notes_dbo_Equipements_Equipement_EquipementID" Association="Self.FK_dbo_Notes_dbo_Equipements_Equipement_EquipementID">
+      <End Role="Equipements" EntitySet="Equipements" />
+      <End Role="Notes" EntitySet="Notes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Responsables_dbo_Equipements_EquipementID" Association="Self.FK_dbo_Responsables_dbo_Equipements_EquipementID">
+      <End Role="Equipements" EntitySet="Equipements" />
+      <End Role="Responsables" EntitySet="Responsables" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Values_dbo_Equipements_EquipementID" Association="Self.FK_dbo_Values_dbo_Equipements_EquipementID">
+      <End Role="Equipements" EntitySet="Equipements" />
+      <End Role="Values" EntitySet="Values" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Zones_dbo_Locations_LocationID" Association="Self.FK_dbo_Zones_dbo_Locations_LocationID">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Zones" EntitySet="Zones" />
+    </AssociationSet>
+    <AssociationSet Name="GroupeServices" Association="Self.GroupeServices">
+      <End Role="Groupes" EntitySet="Groupes" />
+      <End Role="Services" EntitySet="Services" />
+    </AssociationSet>
+    <AssociationSet Name="ProfilGroupes" Association="Self.ProfilGroupes">
+      <End Role="Groupes" EntitySet="Groupes" />
+      <End Role="Profils" EntitySet="Profils" />
+    </AssociationSet>
+    <AssociationSet Name="webpages_UsersInRoles" Association="Self.webpages_UsersInRoles">
+      <End Role="webpages_Roles" EntitySet="webpages_Roles" />
+      <End Role="UserProfile" EntitySet="UserProfile" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

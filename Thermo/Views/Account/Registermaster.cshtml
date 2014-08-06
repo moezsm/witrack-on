@@ -1,0 +1,68 @@
+﻿@model Thermo.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Create a new account.</h2>
+</hgroup>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Create a new account</h4>
+        <div class="options">   
+            <a href="javascript:;" class="panel-collapse"><i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div class="panel-body collapse in">
+    <fieldset>
+        <legend>Account</legend>
+
+         <form class="form-horizontal row-border">
+             <div class="form-group">
+                <label class="col-sm-1 control-label">User Name</label>
+                <div class="col-sm-3">
+                    <input id="UserName" name="UserName"  type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a username. " data-original-title="Name">
+                </div>
+            </div>
+
+              <br />
+              <div class="form-group">
+                <label class="col-sm-1 control-label">Password</label>
+                <div class="col-sm-3">
+                    <input id="Password" name="Password"  type="password" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter your password. " data-original-title="Name">
+                </div>
+            </div> 
+
+              <br />
+            <div class="form-group">
+                <label class="col-sm-1 control-label">Password</label>
+                <div class="col-sm-3">
+                    <input id="ConfirmPassword" name="ConfirmPassword"  type="password" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please confirm your password. " data-original-title="Name">
+                </div>
+            </div> 
+            
+        <br />
+
+        <div class="form-group">
+            <br />
+            <input type="submit" class="btn btn-primary" value="Save" />
+        </div>
+    </form>
+        
+
+        
+        
+    </fieldset>
+        </div>
+        </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

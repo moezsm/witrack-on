@@ -1,0 +1,5 @@
+C:\Users\moez\Documents\Visual Studio 2012\Projects\Thermov1\Thermo\CUITestThermo\bin\Release\CUITestThermo.dll
+C:\Users\moez\Documents\Visual Studio 2012\Projects\Thermov1\Thermo\CUITestThermo\bin\Release\CUITestThermo.pdb
+C:\Users\moez\Documents\Visual Studio 2012\Projects\Thermov1\Thermo\CUITestThermo\obj\Release\CUITestThermo.csprojResolveAssemblyReference.cache
+C:\Users\moez\Documents\Visual Studio 2012\Projects\Thermov1\Thermo\CUITestThermo\obj\Release\CUITestThermo.dll
+C:\Users\moez\Documents\Visual Studio 2012\Projects\Thermov1\Thermo\CUITestThermo\obj\Release\CUITestThermo.pdb

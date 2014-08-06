@@ -1,0 +1,294 @@
+﻿@using Thermo.Helpers
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from hmelius.com/avant/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 09 Nov 2013 09:08:30 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>MaySoft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MayTech">
+    <meta name="author" content="The Red Team">
+    <title>@ViewBag.Title - MaySoft</title>
+    <!-- <link href="assets/less/styles.less" rel="stylesheet/less" media="all">  -->
+    @Styles.Render("~/Content/assets/css/styles.mind87d.css?=112")
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+
+    @Styles.Render("~/Content/assets/demo/variations/default.css")
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. Placeholdr.js enables the placeholder attribute -->
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="assets/css/ie8.css">
+		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/charts-flot/excanvas.min.js"></script>
+	<![endif]-->
+
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+
+    @Styles.Render("~/Content/assets/plugins/form-daterangepicker/daterangepicker-bs3.css")
+    @Styles.Render("~/Content/assets/plugins/fullcalendar/fullcalendar.css")
+    @Styles.Render("~/Content/assets/plugins/form-markdown/css/bootstrap-markdown.min.css")
+    @Styles.Render("~/Content/assets/plugins/codeprettifier/prettify.css")
+    @Styles.Render("~/Content/assets/plugins/form-toggle/toggles.css")
+
+    @Styles.Render("~/assets/plugins/datatables/dataTables.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- <script type="text/javascript" src="assets/js/less.js"></script> -->
+    <!-- styles -->
+    
+    <link rel="stylesheet" href="~/assets/theme/css/font-awesome.css">
+    <!--[if IE 7]>
+<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+<![endif]-->
+    <link href="~/assets/theme/css/theme-blue.css" rel="stylesheet">
+    <link href="~/assets/theme/css/styles.css" rel="stylesheet">
+
+
+    <!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="css/ie/ie7.css" />
+<![endif]-->
+    <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie/ie8.css" />
+<![endif]-->
+    <!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie/ie9.css" />
+<![endif]-->
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList }
+)
+    @Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList }
+)
+
+
+</head>
+
+<body>
+    <script type="text/javascript"> $(window).load(function () {
+     $('.loading').hide(); // hide message when finished with load
+ });</script>
+    <style>
+        .loading {
+            display: none;
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            background: url(spinner.gif) no-repeat center #fff;
+            text-align: center;
+            padding: 10px;
+            font: normal 16px Tahoma, Geneva, sans-serif;
+            border: 1px solid #666;
+            margin-left: -50px;
+            margin-top: -50px;
+            z-index: 2;
+            overflow: auto;
+        }
+    </style>
+
+
+    <div class="loading" id="loading">loading<img src="~/assets/img/loading1.gif" /></div>
+
+
+
+    <div class="layout">
+        <!-- Navbar
+    ================================================== -->
+        <div class="navbar navbar-inverse top-nav">
+            <div class="navbar-inner">
+                <div class="container">
+                    <span
+                        class="home-link"><a href="~/@CultureHelper.GetCurrentCulture()/Home/Dashbord" class="icon-home"></a></span>
+
+
+
+                    <div class="btn-toolbar pull-right notification-nav">
+                        <div class="btn-group">
+
+                            <div class="dropdown">
+                                <a class="btn btn-notification dropdown-toggle"  href="~/@CultureHelper.GetDefaultCulture()/Alarme"><i class="icon-globe"><span class="notify-tip">@AlarmeHelper.getActive()</span></i></a>
+
+
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <div class="dropdown">
+                                <a href="~/@CultureHelper.GetDefaultCulture()/Account/LogOff"
+                                    class="btn btn-notification"><i class="icon-lock"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="leftbar leftbar-close clearfix">
+            <div class="admin-info clearfix">
+                <div class="admin-thumb">
+                    <i class="icon-user"></i>
+                </div>
+                <div
+                    class="admin-meta">
+                    <ul>
+                        <li class="admin-username">
+                            @UsersinfoHelper.getFirstname(WebSecurity.CurrentUserId) @UsersinfoHelper.getLastname(WebSecurity.CurrentUserId)
+                        </li>
+                        <li>
+                            <a href="~/@CultureHelper.GetDefaultCulture()/Profil/Edit/@UsersinfoHelper.getId(WebSecurity.CurrentUserId)">
+                                @Ressources.Resources.EditProfile
+
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="~/@CultureHelper.GetDefaultCulture()/Profil/Details/@UsersinfoHelper.getId(WebSecurity.CurrentUserId)">@Ressources.Resources.ViewProfile </a>
+                            <a href="~/@CultureHelper.GetDefaultCulture()/Account/LogOff">
+                                <i class="icon-lock"></i>
+                                @Ressources.Resources.Logout
+
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="left-nav clearfix">
+                <div class="left-primary-nav">
+                    <ul id="myTab">
+                        <li class="active"><a href="~/@CultureHelper.GetDefaultCulture()/Home/Dashbord" class="icon-desktop"
+                            title="Dashboard"></a></li>
+
+                    </ul>
+                    <ul>
+                    </ul>
+                </div>
+                <div class="responsive-leftbar">
+                    <i class="icon-list"></i>
+
+                </div>
+                <div class="left-secondary-nav tab-content">
+                    <div class="tab-pane active" id="main">
+
+                        <h4 class="side-head">@Ressources.Resources.Dashboard</h4>
+
+
+                        <ul class="metro-sidenav clearfix">
+                            <li><a href="#" class="brown"><i class="icon-th"></i><span>@Ressources.Resources.Parameters</span></a></li>
+                            <li><a href="~/@CultureHelper.GetDefaultCulture()/Profil" class=" magenta"><i class="icon-user"></i><span>@Ressources.Resources.Users
+
+                            </span></a></li>
+                            <li>
+                                <a href="~/@CultureHelper.GetDefaultCulture()/Location" class=" bondi-blue"><i class="icon-map-marker"></i><span>@Ressources.Resources.Locations</span></a></li>
+                            <li><a href="~/@CultureHelper.GetDefaultCulture()/Responsable" class="orange"><i class="icon-cogs"></i><span>@Ressources.Resources.Responsability</span></a></li>
+                            <li><a href="~/@CultureHelper.GetDefaultCulture()/Zone" class=" dark-yellow"><i class="icon-pushpin"></i><span>Zones</span></a></li>
+                            <li><a href="~/@CultureHelper.GetDefaultCulture()/Alarme" class=" blue-violate"><i class="icon-bell"></i><span>Alarmes</span></a></li>
+
+                            <li>
+                                <a href="~/@CultureHelper.GetDefaultCulture()/Equipement" class="green"><i class="icon-plus"></i><span>@Ressources.Resources.Seonsors</span></a></li>
+
+
+                            <li>
+                                <a href="~/@CultureHelper.GetDefaultCulture()/Evenement" class=" bondi-blue"><i class="icon-time"></i><span>@Ressources.Resources.Events</span></a></li>
+                        </ul>
+                        <div
+                            class="side-widget">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="main-wrapper">
+            <div class="container-fluid">
+                @RenderSection("report", required: false)
+                @RenderSection("breadcrumb", required: false)
+
+
+                @RenderSection("pagetitle", required: false)
+
+
+
+
+                <div class="container">
+
+                    @RenderSection("featured", required: false)
+                    @RenderBody()
+                </div>
+                <!-- container -->
+            </div>
+            <!--wrap -->
+        </div>
+        <!-- page-content -->
+        <div class="copyright">
+            <p>
+                &copy; 2014 MaySoft
+            </p>
+        </div>
+        <div class="scroll-top" style="display: block;">
+            <a class="tip-top" title="Go Top" href="#">
+                <i class="icon-double-angle-up"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script>!window.jQuery && document.write(unescape('%3Cscript src="assets/js/jquery-1.10.2.min.js"%3E%3C/script%3E'))</script>
+<script type="text/javascript">!window.jQuery.ui && document.write(unescape('%3Cscript src="assets/js/jqueryui-1.10.3.min.js'))</script>
+-->
+<script src="~/assets/theme/js/custom.js"></script>
+<script src="~/assets/theme/js/ios-orientationchange-fix.js"></script>
+    @Scripts.Render("~/assets/js/jquery-1.10.2.min.js")
+    @Scripts.Render("~/assets/js/jqueryui-1.10.3.min.js")
+    @Scripts.Render("~/assets/js/bootstrap.min.js")
+    @Scripts.Render("~/assets/js/enquire.js")
+    @Scripts.Render("~/assets/js/jquery.cookie.js")
+
+    @Scripts.Render("~/assets/js/jquery.nicescroll.min.js")
+    @Scripts.Render("~/assets/plugins/codeprettifier/prettify.js")
+    @Scripts.Render("~/assets/plugins/easypiechart/jquery.easypiechart.min.js")
+    @Scripts.Render("~/assets/plugins/sparklines/jquery.sparklines.min.js")
+
+    @Scripts.Render("~/assets/plugins/form-toggle/toggle.min.js")
+    @Scripts.Render("~/assets/js/placeholdr.js")
+    @Scripts.Render("~/assets/js/application.js")
+    @Scripts.Render("~/assets/demo/demo.js")
+
+
+    @Scripts.Render("~/assets/plugins/datatables/jquery.dataTables.min.js")
+    @Scripts.Render("~/assets/plugins/datatables/dataTables.bootstrap.js")
+
+    @Scripts.Render("~/assets/demo/demo-datatables.js")
+    
+    @RenderSection("variables", false)
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

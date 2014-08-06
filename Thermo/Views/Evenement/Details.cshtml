@@ -1,0 +1,22 @@
+﻿@model Thermo.Models.Evenement
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Evenement</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EvenementType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EvenementType)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.EvenementID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

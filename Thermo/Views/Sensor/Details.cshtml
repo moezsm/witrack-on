@@ -1,0 +1,31 @@
+﻿@model Thermo.Models.Sensor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Sensor</legend>
+    <div class="col-md-6">
+        <div class="tab-container tab-primary">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home2" data-toggle="tab">@Html.DisplayNameFor(model => model.name)</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="home2">
+                    <p>@Html.DisplayFor(model => model.name)
+                    </p>
+                </div>
+                <div class="tab-pane" id="profile2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</fieldset>
+<p>
+   <a class="btn btn-primary" @Html.ActionLink("Edit", "Edit", new { id=Model.SensorID }) 
+   <a class="btn btn-primary" @Html.ActionLink("Back to List", "Index")
+</p>

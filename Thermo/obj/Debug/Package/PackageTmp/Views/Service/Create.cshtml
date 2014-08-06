@@ -1,0 +1,41 @@
+﻿@model Thermo.Models.Service
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    
+    <fieldset>
+       
+
+        <legend>Userinfo</legend>
+        
+         <form class="form-horizontal row-border">
+        <div class="form-group">
+                <label class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-3">
+                    <input id="Name" name="Name" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the service. " data-original-title="Name">
+                </div>
+            </div>
+       <br />
+
+        <div class="form-group">
+            <br />
+            <input type="submit" class="btn btn-primary" value="Save" />
+        </div>
+        </form>
+    </fieldset>
+}
+
+<div>
+   <a class="btn btn-primary" @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

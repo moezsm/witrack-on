@@ -1,0 +1,113 @@
+﻿@model Thermo.Models.Profil
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    
+    <fieldset>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>@Ressources.Resources.info</h4>
+                        <div class="options">
+                            <a href="javascript:;" class="panel-collapse"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel-body collapse in">
+
+                        <form class="form-horizontal row-border">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Last Name</label>
+                                <div class="col-sm-3">
+                                    <input id="Nom" name="Nom" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">First Name</label>
+                                <div class="col-sm-3">
+                                    <input id="Prenom" name="Prenom" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Mail</label>
+                                <div class="col-sm-3">
+                                    <input id="Mail" name="Mail" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Mail weekend</label>
+                                <div class="col-sm-3">
+                                    <input id="Mailweekend" name="Mailweekend" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Additional Mail</label>
+                                <div class="col-sm-3">
+                                    <input id="Mail3" name="Mail3" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Phone Number</label>
+                                <div class="col-sm-3">
+                                    <input id="numero" name="numero" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Night Number </label>
+                                <div class="col-sm-3">
+                                    <input id="numero2" name="numero2" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Weekend Number </label>
+                                <div class="col-sm-3">
+                                    <input id="numero3" name="numero3" value="" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="Please enter a name for the equipement. " data-original-title="Name">
+                                </div>
+                            </div>
+                            <br />
+
+
+                            <div class="form-group">
+                                <label for="disabledinput" class="col-sm-2 control-label">@Html.LabelFor(Model => Model.UserID)</label>
+                                <div class="col-sm-3">
+                                    <input disabled type="text" id="UserID" name="UserID" value="@ViewData["id"]" class="form-control"  >
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="form-group">
+                                <br />
+                                <input type="submit" class="btn btn-primary" value="Save" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+}
+
+<div>
+    <a class="btn btn-primary" @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

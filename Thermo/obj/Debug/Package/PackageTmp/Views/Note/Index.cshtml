@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Thermo.Models.Note>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Datecreation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AlarmeID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Author)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Datecreation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AlarmeID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NoteID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NoteID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NoteID })
+        </td>
+    </tr>
+}
+
+</table>

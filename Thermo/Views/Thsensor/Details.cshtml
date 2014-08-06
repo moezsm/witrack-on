@@ -1,0 +1,99 @@
+﻿@model Thermo.Models.Thsensor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Thsensor</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.HumidityHighAlarm)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HumidityHighAlarm)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.HumidityLowAlarm)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HumidityLowAlarm)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Zones.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Zones.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DateCreation)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DateCreation)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Sensors.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Sensors.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.HighAlarm)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HighAlarm)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LowAlarm)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LowAlarm)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Numero)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Numero)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FirstAlarm)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FirstAlarm)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RepititionAlarm)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RepititionAlarm)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

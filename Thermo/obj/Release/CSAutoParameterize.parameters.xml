@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." defaultValue="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-Thermo-20131111155427.mdf;Initial Catalog=aspnet-Thermo-20131111155427;Integrated Security=True;User Instance=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Develop\\test\\thermotrack\\trunk\\Thermo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ModuleEquipementContext-Web.config Connection String" description="ModuleEquipementContext Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." defaultValue="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-ThermoLocal3.mdf;Initial Catalog=aspnet-ThermoLocal3;Integrated Security=True;User Instance=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Develop\\test\\thermotrack\\trunk\\Thermo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ModuleEquipementContext']/@connectionString" />
+  </parameter>
+</parameters>

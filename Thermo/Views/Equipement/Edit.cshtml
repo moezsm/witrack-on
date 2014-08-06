@@ -1,0 +1,136 @@
+﻿@model Thermo.Models.Equipement
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>@Ressources.Resources.Editequipement</h4>
+            <div class="options">
+                <a href="javascript:;" class="panel-collapse"><i class="fa fa-chevron-down"></i></a>
+            </div>
+        </div>
+        <div class="panel-body collapse in">
+            <fieldset>
+
+
+                @Html.HiddenFor(model => model.EquipementID)
+
+                @Html.HiddenFor(model => model.DateCreation)
+                @Html.HiddenFor(model => model.UserID)
+                <form class="form-horizontal row-border">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.Name</label>
+                        <div class="col-sm-4">
+                            <input id="Name" name="Name" value="@Model.Name" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enternameequip. ">
+                        </div>
+                    </div>
+
+
+                    <br />
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Zone</label>
+                        <div class="col-sm-4">
+                            @Html.DropDownList("ZoneID", String.Empty)
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.Sensors</label>
+                        <div class="col-sm-4">
+                            @Html.DropDownList("SensorID", String.Empty)
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.SondeId</label>
+                        <div class="col-sm-4">
+                            <input id="Numero" name="Numero" value="@Model.Numero" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enterserialnum.">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">@Ressources.Resources.HighAlarm</label>
+                        <div class="col-sm-4">
+                            <input id="HighAlarm" name="HighAlarm" value="@Model.HighAlarm" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.popuphight.">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <br />
+                        <label class="col-sm-2 control-label">@Ressources.Resources.LowAlarm</label>
+                        <div class="col-sm-4">
+                            <input id="LowAlarm" name="LowAlarm" value="@Model.LowAlarm" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.popuplow." >
+                        </div>
+                    </div>
+                    <br />
+                    @if (Model.SensorID == 2)
+                    {
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Humidité haute</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="HumidityHighAlarm" name="HumidityHighAlarm" />
+                            </div>
+                            <div class="col-sm-3">
+                            </div>
+                        </div>
+                        <br />
+        
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Humidité basse</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="HumidityLowAlarm" name="HumidityLowAlarm" />
+                            </div>
+                            <div class="col-sm-3">
+                            </div>
+                        </div>
+                        <br />
+                    }
+                    <div class="form-group">
+                        <br />
+                        <label class="col-sm-2 control-label">@Ressources.Resources.Firstalarme</label>
+                        <div class="col-sm-4">
+                            <input id="FirstAlarm" name="FirstAlarm" value="@Model.FirstAlarm" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.popupfirst" >
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <br />
+                        <label class="col-sm-2 control-label">@Ressources.Resources.frequency</label>
+                        <div class="col-sm-4">
+                            <input id="RepititionAlarm" name="RepititionAlarm" value="@Model.RepititionAlarm" type="text" class="form-control popovers" placeholder="Popover Input" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enterfrequency" >
+                        </div>
+                    </div>
+
+                    <br />
+                    <div class="form-group">
+                        <br />
+                        <input type="submit" class="btn btn-primary" value="@Ressources.Resources.Save" />
+                    </div>
+                </form>
+
+
+
+
+            </fieldset>
+        </div>
+    </div>
+}
+
+<div>
+    <a class="btn btn-primary" @Html.ActionLink(Ressources.Resources.BacktoList, "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

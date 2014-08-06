@@ -1,0 +1,54 @@
+﻿@model Thermo.Models.Value
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Value</legend>
+
+        @Html.HiddenFor(model => model.ValueId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Val)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Val)
+            @Html.ValidationMessageFor(model => model.Val)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateCreation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateCreation)
+            @Html.ValidationMessageFor(model => model.DateCreation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EquipementID, "Equipements")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("EquipementID", String.Empty)
+            @Html.ValidationMessageFor(model => model.EquipementID)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

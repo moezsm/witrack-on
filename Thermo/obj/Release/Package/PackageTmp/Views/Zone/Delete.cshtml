@@ -1,0 +1,72 @@
+﻿@model Thermo.Models.Zone
+
+@{
+    ViewBag.Title = "Delete";
+}
+<div class="alert alert-dismissable alert-danger">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <h3>@Ressources.Resources.Delete !</h3>
+
+    <p>@Ressources.Resources.surewanttodeletezone</p>
+    <br>
+    <p><a data-toggle="modal" class="btn btn-danger" href="#myModal">@Ressources.Resources.moreinfo</a></p>
+
+</div>
+<fieldset>
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-body">
+                <div class="table-flipscroll">
+                    <table class="table">
+                        <thead>
+                            <th>@Ressources.Resources.Name</th>
+                            <th>@Ressources.Resources.Location</th>
+                            <th>@Ressources.Resources.Datecreation</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Html.DisplayFor(model => model.Name)</td>
+                                <td>@Html.DisplayFor(model => model.DateCreation)</td>
+                                <td>@Html.DisplayFor(model => model.DateCreation)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" class="btn btn-danger " value="@Ressources.Resources.Delete" />
+        <a class="btn btn-primary" @Html.ActionLink(@Ressources.Resources.BacktoList, "Index")
+    </p>
+}
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">@Ressources.Resources.help</h4>
+            </div>
+            <div class="modal-body">
+                <p>@Ressources.Resources.wahtcan.<i> @Ressources.Resources.becareful</i>, @Ressources.Resources.actionirr.</p>
+                <ol>
+                    <li>@Ressources.Resources.option1.</li>
+                    <li>@Ressources.Resources.option2.</li>
+
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@Ressources.Resources.Close</button>
+
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->

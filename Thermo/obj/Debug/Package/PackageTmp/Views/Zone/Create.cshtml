@@ -1,0 +1,48 @@
+﻿@model Thermo.Models.Zone
+
+@{
+    ViewBag.Title = "Create";
+    //Layout = "~/Views/Shared/_layoutiframe.cshtml";
+    Layout = "~/Views/Shared/_layoutiframe.cshtml";
+}
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@using (Html.BeginForm()) {
+     @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Zone</legend>
+
+        <form class="form-horizontal">
+         <div class="form-group">
+            <label for="focusedinput" class="col-sm-3 control-label"> @Ressources.Resources.Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" @Html.EditorFor(model => model.Name)
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block">@Html.ValidationMessageFor(model => model.Name)</p>
+            </div>
+        </div>
+            <br/>
+     <div class="form-group">
+            <label for="selector1" class="col-sm-3 control-label">@Html.LabelFor(model => model.LocationID, Ressources.Resources.Location)</label>
+            <div class="col-sm-6"> @Html.DropDownList("LocationID", String.Empty)
+            </div>
+         <br/>
+            <div class="col-sm-3">
+                <p class="help-block"> @Html.ValidationMessageFor(model => model.LocationID)</p>
+            </div>
+        </div>
+            </form>
+
+        <p style="clear: both; text-align: right;">
+            <input type="submit" class="btn btn-primary " value="@Resources.Createnew" />
+            <a href="~/fr/Zone" class="btn ">@Resources.BacktoList</a>
+           
+        </p>
+    </fieldset>
+}
+

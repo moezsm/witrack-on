@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Thermo.Models.Thsensor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HumidityHighAlarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HumidityLowAlarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Zones.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCreation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sensors.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HighAlarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LowAlarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Numero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstAlarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RepititionAlarm)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HumidityHighAlarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HumidityLowAlarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Zones.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateCreation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sensors.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HighAlarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LowAlarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Numero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstAlarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RepititionAlarm)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

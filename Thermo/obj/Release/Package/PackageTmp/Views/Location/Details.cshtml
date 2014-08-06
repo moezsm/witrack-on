@@ -1,0 +1,35 @@
+﻿@model Thermo.Models.Location
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Ressources.Resources.locationdetail</h2>
+<div class="col-md-6">
+<div class="panel panel-primary">
+ <div class="panel-body" >
+   <div class="table-flipscroll">
+    <table class="table">
+        <thead>
+            <th>@Ressources.Resources.Name</th>
+            <th>@Ressources.Resources.Datecreation</th>
+                
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.Name)</td>
+                <td>@Html.DisplayFor(model => model.DateCreation)</td>
+            </tr>
+        </tbody>
+        </table>
+   
+       </div>
+ </div>
+</div>
+  
+<br />
+<div>
+   <a class="btn btn-primary" @Html.ActionLink(@Ressources.Resources.Edit, "Edit", new { id = Model.LocationID }) 
+  <a class="btn btn-primary"  @Html.ActionLink(@Ressources.Resources.BacktoList, "Index")
+</div>
+  </div>

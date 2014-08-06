@@ -1,0 +1,270 @@
+﻿@model Thermo.Models.Alarme
+@{
+    ViewBag.Title = "Justify";
+    Layout = "~/Views/Shared/_layoutiprequest.cshtml";
+}
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.24.min.js"></script>
+
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+<script>
+    $(document).ready(function () {
+        var url = "";
+        $("#dialog-alert").dialog({
+            autoOpen: false,
+            resizable: false,
+            height: 170,
+            width: 350,
+            show: { effect: 'drop', direction: "up" },
+            modal: true,
+            draggable: true,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close").hide();
+            },
+            buttons: {
+                "OK": function () {
+                    $(this).dialog("close");
+
+                },
+                "Cancel": function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
+
+        if ('@TempData["msg"]' != "") {
+            $("#dialog-alert").dialog('open');
+        }
+
+        $("#dialog-edit").dialog({
+            title: 'Note de justification',
+            autoOpen: false,
+            resizable: false,
+            width: 400,
+            show: { effect: 'drop', direction: "up" },
+            modal: true,
+            draggable: true,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close").hide();
+                $(this).load(url);
+            }
+        });
+
+        $("#dialog-confirm").dialog({
+            autoOpen: false,
+            resizable: false,
+            height: 170,
+            width: 350,
+            show: { effect: 'drop', direction: "up" },
+            modal: true,
+            draggable: true,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close").hide();
+
+            },
+            buttons: {
+                "OK": function () {
+                    $(this).dialog("close");
+                    window.location.href = url;
+                },
+                "Cancel": function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
+
+        $("#dialog-detail").dialog({
+            title: 'View User',
+            autoOpen: false,
+            resizable: false,
+            width: 400,
+            show: { effect: 'drop', direction: "up" },
+            modal: true,
+            draggable: true,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close").hide();
+                $(this).load(url);
+            },
+            buttons: {
+                "Close": function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
+
+        $("#lnkCreate").live("click", function (e) {
+            //e.preventDefault(); //use this or return false
+            url = $(this).attr('href');
+            $("#dialog-edit").dialog('open');
+
+            return false;
+        });
+
+        $(".lnkEdit").live("click", function (e) {
+            // e.preventDefault(); use this or return false
+            url = $(this).attr('href');
+            $(".ui-dialog-title").html("Update User");
+            $("#dialog-edit").dialog('open');
+
+            return false;
+        });
+
+        $(".lnkDelete").live("click", function (e) {
+            // e.preventDefault(); use this or return false
+            url = $(this).attr('href');
+            $("#dialog-confirm").dialog('open');
+
+            return false;
+        });
+
+        $(".lnkDetail").live("click", function (e) {
+            // e.preventDefault(); use this or return false
+            url = $(this).attr('href');
+            $("#dialog-detail").dialog('open');
+
+            return false;
+        });
+
+        $("#btncancel").live("click", function (e) {
+            $("#dialog-edit").dialog("close");
+            return false;
+        });
+    });
+</script>
+<div id="dialog-alert" style="display: none">
+    <p>
+        @TempData["msg"]!
+    </p>
+</div>
+
+<div id="dialog-confirm" style="display: none">
+    <p>
+        <span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>
+        Are you sure to delete?
+    </p>
+</div>
+<div id="dialog-edit" style="display: none">
+</div>
+<div id="dialog-detail" style="display: none">
+</div>
+@using Thermo.Helpers
+<h2>Justify</h2>
+<div class="row">
+<div class="col-md-6">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>Alarmes @Resources.For  @ViewData["Equipement"]  </h4>
+        </div>
+        <div class="panel-body">
+            <div class="table-flipscroll">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <th> </th>
+                            <th>Informations </th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Alarme id </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => Model.AlarmeID)
+                            </td>
+                            </tr>
+                        <tr>
+                            <th>Equipement </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => Model.Equipements.Name)
+                            </td>
+                            </tr>
+                        <tr>
+                            <th>Date Debut </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => Model.StartDate)
+                            </td>
+                            </tr>
+                        <tr>
+                            <th>Date fin </th>
+                            <td>
+                                @if (Model.fin == "No")
+                                {
+                                    <span>--</span>  
+                                }
+                                else
+                                {
+                                    @Html.DisplayFor(modelItem => Model.EndDate)
+                                }
+                            </td>
+                            </tr>
+                        <tr>
+                            <th>Type </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => Model.Status)
+                            </td>
+                            </tr>
+                        <tr>
+                            <th>Température </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => Model.Values)
+                            </td>
+                            </tr>
+                        <tr>
+                            <th>Fermé </th>
+                            <td>
+                                @if (Model.closed == "No")
+                                {
+                                    <span class="badge badge-danger">@Html.DisplayFor(modelItem => Model.closed)</span> 
+                                }
+                                else
+                                {
+                                    <span class="badge badge-success">@Html.DisplayFor(modelItem => Model.closed)</span> 
+                                }
+                            </td>
+                            </tr>
+                         <tr>
+                             @if (Model.closed == "No" )
+                            {
+                            <th>Acquiter </th>
+                            }
+                             @if (Model.fin != "No")
+                             {
+                             if (Model.closed == "No" )
+                            {
+                            <td>
+                                <a class="btn btn-primary-alt btn-sm" @Html.ActionLink("Acquiter", "Close", new { idAlarme = Model.AlarmeID }) 
+                            </td>
+                             }
+                             }
+                             else 
+                             {
+                                 <td>L'alarme n'est pas cloturée</td>
+                             }
+                        </tr>
+
+                    </tbody>
+                    <caption>Details @Resources.For alarme</caption>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    </div>
+   
+@Html.Partial("ListePartial", Model)
+     
+    </div>
+ <fieldset>
+    
+        
+
+    </fieldset>
+<div>
+   <a class="btn btn-primary" @Html.ActionLink(@Ressources.Resources.BacktoList, "Index")
+</div>

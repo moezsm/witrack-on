@@ -1,0 +1,45 @@
+﻿@model Thermo.Models.Note
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_layoutiframe.cshtml";
+}
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("AlarmeID" , ViewData["id"])
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <div class="form-group">
+            <label class="col-sm-3 control-label" for="txtarea1">Note:</label>
+            <div class="col-sm-9">
+                <textarea id="text" class="form-control" rows="1" cols="100" name="text"></textarea>
+            </div>
+        </div>
+        <br />
+
+       
+        <div class="form-group" >
+            <br />
+            <p style="clear: both; text-align: right; ">
+                <input class="btn btn-primary" type="submit" value="Create" />
+                <a   href="~/@Thermo.Helpers.CultureHelper.GetCurrentCulture()/Alarme/Acquiter?idAlarme=@ViewData["id"] " class="btn btn-primary ">@Resources.BacktoList</a>
+            </p>
+
+        </div>
+
+
+    </fieldset>
+}
+
+<div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

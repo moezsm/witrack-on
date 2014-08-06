@@ -1,0 +1,107 @@
+﻿
+
+<link href="~/Content/assets/spinner/jquery-ui.css" rel="stylesheet">
+<script src="~/Content/assets/spinner/jquery.js"></script>
+<script src="~/Content/assets/spinner/jquery-ui.js"></script>
+<form method="post" action="~/fr/equipement/Create" novalidate="novalidate" style="display:inline">
+    
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+<div class="form-group">
+            <label for="selector1" class="col-sm-2 control-label">Zone</label>
+            <div class="col-sm-4">@Html.DropDownList("ZoneID", String.Empty)
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+        <br />
+<div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.Name</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="Name" name="Name" /> 
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+        <br />
+        
+         
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.SondeId</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="Numero" name="Numero" /> 
+            </div>
+            <div class="col-sm-3">
+               
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.HighAlarm</label>
+            <div class="col-sm-4">
+                <input type="spinner" style="width:338px" class="form-control" id="HighAlarm" name="HighAlarm" />
+            </div>
+            <div class="col-sm-3">
+                
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.LowAlarm</label>
+            <div class="col-sm-4">
+                <input type="spinner" style="width:338px" class="form-control" id="LowAlarm" name="LowAlarm" />
+            </div>
+            <div class="col-sm-3">
+              
+            </div>
+        </div>
+        <br />
+
+        <div class="form-group">
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.Firstalarme</label>
+            <div class="col-sm-4">
+                <input type="spinner" style="width:338px" class="form-control" value="1" id="FirstAlarm" name="FirstAlarm" />
+            </div>
+            <div class="col-sm-3">
+                
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+           
+            <label for="focusedinput" class="col-sm-2 control-label">@Ressources.Resources.frequency</label>
+            <div class="col-sm-4">
+                <input type="spinner" style="width:338px" class="form-control" id="RepititionAlarm" name="RepititionAlarm" /> 
+            </div>
+            <div class="col-sm-3">
+                
+            </div>
+        </div>
+
+        <br />
+     <br />
+        <p>
+            <input type="submit" class="btn btn-primary" value="@Ressources.Resources.create" />
+        </p>
+    </form>
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    $('input[type="spinner"]').spinner();
+
+
+
+</script>

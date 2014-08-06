@@ -1,0 +1,223 @@
+/*
+ * @freebie: login-freebie
+ * @author: Francisco Neves
+ */
+
+ #login-freebie{
+	margin: 5% auto;
+}
+
+
+div.login-freebie
+{
+	font-size: 12px;
+	
+	background-color: #FFF;
+	
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	
+	
+
+	-moz-box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.5);
+	width :410px;
+	margin: 0 auto;
+
+}
+
+div.login-freebie > div.form
+{
+	margin: 20px 70px 20px 40px;
+}
+
+div.login-freebie > div.form > input[type=text],
+div.login-freebie > div.form > input[type=password]
+{
+	outline: none;
+	display: table;
+	width: 100%;
+	padding: 8px 0px;
+	border: 1px solid #bcbcbc;
+	color: #333;
+	text-shadow: 0px 0px 0px #fff;
+	margin-bottom: 15px;
+
+
+	background: #EEEEEE; /* Old browsers */
+
+}
+div.login-freebie > div.form > input:last-child { margin-bottom: 0px; }
+
+div.login-freebie > div.form > input[type=text]:hover,
+div.login-freebie > div.form > input[type=password]:hover,
+div.login-freebie > div.form > input[type=text]:focus,
+div.login-freebie > div.form > input[type=password]:focus
+{
+	-moz-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.2) inset, 0 0 5px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.2) inset, 0 0 5px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.2) inset, 0 0 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+div.footerLogin
+{
+	font-size: 11px;
+	display: table;
+	width: 100%;
+	padding: 0px 0px;
+	background-color: #eee;
+
+	color: #bcbcbc;
+	text-shadow: 0px 1px 0px #000;
+	position: relative;
+}
+
+div.content-footer{
+	padding: 0 22px;
+    text-align: right;
+
+}
+
+	h4 { color: #c5c5c5; margin-top: 50px; }
+		body { background:url("../images/low_contrast_linen.png"); margin: 0; font-family: Arial, Verdana; }
+		ul#login-freebie { display: table; list-style: none; margin: 0 auto; padding: 0; }
+		ul#login-freebie > li { float: left; margin-right: 20px; margin-bottom: 20px; }
+		ul#login-freebie > li:last-child { margin-right: 0; }
+		
+		
+		
+.btn {
+	padding:6px 12px;
+	border: rgba(0, 0, 0, .1) 1px solid;
+}
+.btn i {
+	margin-right:5px;
+}
+
+
+
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 7px 18px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #d0cfd6;
+  border: 0px;
+  *zoom: 1;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #444444;
+  background-color: #7c798f;
+  *background-color: #7c798f;
+}
+
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+.btn:first-child {
+  *margin-left: 0;
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+}
+
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+
+
+
+
+
+.btn-danger {
+  color: #ffffff;
+  background-color: #27adce;
+}
+
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  color: #ffffff;
+  background-color: #38c0e1;
+}
+
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #09a1c7 \9;
+}
+
+
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+.btn-group.open .btn-danger.dropdown-toggle {
+  background-color: #bd362f;
+}
+
+
+.btn-login{
+	width:145px;
+}
+
+
+
+
+
+
+
+
+

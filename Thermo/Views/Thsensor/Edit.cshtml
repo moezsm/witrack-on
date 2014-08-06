@@ -1,0 +1,128 @@
+﻿@model Thermo.Models.Thsensor
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Thsensor</legend>
+
+        @Html.HiddenFor(model => model.ThsensorID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HumidityHighAlarm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HumidityHighAlarm)
+            @Html.ValidationMessageFor(model => model.HumidityHighAlarm)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HumidityLowAlarm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HumidityLowAlarm)
+            @Html.ValidationMessageFor(model => model.HumidityLowAlarm)
+        </div>
+
+        @Html.HiddenFor(model => model.EquipementID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ZoneID, "Zones")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ZoneID", String.Empty)
+            @Html.ValidationMessageFor(model => model.ZoneID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateCreation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateCreation)
+            @Html.ValidationMessageFor(model => model.DateCreation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SensorID, "Sensors")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("SensorID", String.Empty)
+            @Html.ValidationMessageFor(model => model.SensorID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HighAlarm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HighAlarm)
+            @Html.ValidationMessageFor(model => model.HighAlarm)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LowAlarm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LowAlarm)
+            @Html.ValidationMessageFor(model => model.LowAlarm)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Numero)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Numero)
+            @Html.ValidationMessageFor(model => model.Numero)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserID)
+            @Html.ValidationMessageFor(model => model.UserID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FirstAlarm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FirstAlarm)
+            @Html.ValidationMessageFor(model => model.FirstAlarm)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RepititionAlarm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RepititionAlarm)
+            @Html.ValidationMessageFor(model => model.RepititionAlarm)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

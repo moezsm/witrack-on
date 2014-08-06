@@ -1,0 +1,10 @@
+C:\Develop\test\thermotrack\trunk\Ressources\bin\Debug\Ressources.dll
+C:\Develop\test\thermotrack\trunk\Ressources\bin\Debug\Ressources.pdb
+C:\Develop\test\thermotrack\trunk\Ressources\bin\Debug\en\Ressources.resources.dll
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\Ressources.Resources.resources
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\Ressources.Resources.en.resources
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\Ressources.csproj.GenerateResource.Cache
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\en\Ressources.resources.dll
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\Ressources.dll
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\Ressources.pdb
+C:\Develop\test\thermotrack\trunk\Ressources\obj\Debug\Ressources.csprojResolveAssemblyReference.cache

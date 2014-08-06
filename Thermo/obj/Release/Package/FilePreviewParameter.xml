@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="maysoft2-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Develop\\test\\thermotrack\\trunk\\Thermo\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Develop\\test\\thermotrack\\trunk\\Thermo\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-Thermo-20131111155427.mdf;Initial Catalog=aspnet-Thermo-20131111155427;Integrated Security=True;User Instance=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Develop\\test\\thermotrack\\trunk\\Thermo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ModuleEquipementContext-Web.config Connection String" description="" value="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-ThermoLocal3.mdf;Initial Catalog=aspnet-ThermoLocal3;Integrated Security=True;User Instance=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Develop\\test\\thermotrack\\trunk\\Thermo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ModuleEquipementContext']/@connectionString" />
+  </parameter>
+</parameters>

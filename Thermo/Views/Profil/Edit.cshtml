@@ -1,0 +1,130 @@
+﻿@model Thermo.Models.Profil
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>@Ressources.Resources.edituserinfo</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+
+
+        @Html.HiddenFor(model => model.ProfilID)
+        @Html.HiddenFor(model => model.UserID)
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>@Ressources.Resources.info</h4>
+                        <div class="options">
+                            <a href="javascript:;" class="panel-collapse"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel-body collapse in">
+                        <form class="form-horizontal row-border">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.LastName</label>
+                                <div class="col-sm-3">
+                                    <input id="Nom" name="Nom" value="@Model.Nom " type="text" class="form-control popovers" placeholder="Nom" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enteryourname" >
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.FirstName</label>
+                                <div class="col-sm-3">
+                                    <input id="Prenom" name="Prenom" value="@Model.Prenom" type="text" class="form-control popovers" placeholder="Prenom" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enteryourlastname " >
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Mail</label>
+                                <div class="col-sm-3">
+                                    <input id="Mail" name="Mail" value="@Model.Mail" type="text" class="form-control popovers" placeholder="Mail" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enteryourmail" >
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.Mailweekend</label>
+                                <div class="col-sm-3">
+                                    <input id="Mailweekend" name="Mailweekend" value="@Model.Mailweekend" type="text" class="form-control popovers" placeholder="Mailweekend" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.yourmailwkd " >
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.additionalmail</label>
+                                <div class="col-sm-3">
+                                    <input id="Mail3" name="Mail3" value="@Model.Mail3" type="text" class="form-control popovers" placeholder="" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.youradditional " >
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.PhoneNumber </label>
+                                <div class="col-sm-3">
+                                    <input id="numero" name="numero" value="@Model.numero" type="text" class="form-control popovers" placeholder="" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enterphone " >
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.NightNumber </label>
+                                <div class="col-sm-3">
+                                    <input id="numero2" name="numero2" value="@Model.numero2" type="text" class="form-control popovers" placeholder="" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.enternightnumber" >
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Ressources.Resources.weekendnumber </label>
+                                <div class="col-sm-3">
+                                    <input id="numero3" name="numero3" value="@Model.numero3" type="text" class="form-control popovers" placeholder="" data-trigger="hover" data-toggle="popover" data-content="@Ressources.Resources.yourweekendnumber" >
+                                </div>
+                            </div>
+                            <br />
+
+
+
+
+                            <div class="form-group">
+                                <br />
+                                <input type="submit" class="btn btn-primary" value="@Ressources.Resources.Save" />
+                                <a class="btn btn-primary" @Html.ActionLink(Ressources.Resources.BacktoList, "Index")
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </fieldset>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">SMS Send</h4>
+            </div>
+            <div class="modal-body">
+                <!-- <iframe src="/Groupe/test" style="height: 300px; width: 200px;" frameborder="0" scrolling="no"></iframe>-->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->

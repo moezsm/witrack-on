@@ -1,0 +1,171 @@
+﻿@using Thermo.Helpers   
+ <div class="row" >
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12 clearfix">
+                            <h4 class="pull-left" style="margin: 0 0 10px">@Resources.EquipementsLastsmeasures </h4>
+
+                        </div>
+                        <div class="tab-container tab-danger">
+                            <ul class="nav nav-tabs">
+
+                                @{
+                                   int l = 0;
+                                   foreach (var equi in ViewData["equipement"] as List<Thermo.Models.Equipement>)
+                                   {
+                                       if (l == 0)
+                                       {
+                                    <li class="active">
+                                        <a data-toggle="tab" href="#@equi.EquipementID">@equi.Name</a>
+                                    </li>
+                                       }
+                                       else
+                                       {
+                                    <li>
+                                        <a data-toggle="tab" href="#@equi.EquipementID">@equi.Name</a>
+                                    </li>
+                                       }
+                                       l++;
+                                   }
+                                
+                                }
+
+                                <li>
+                                <li class="dropdown">
+                            </ul>
+                            <div class="tab-content">
+                                @{
+                                   int h = 0;
+                                   foreach (var equi in ViewData["equipement"] as List<Thermo.Models.Equipement>)
+                                   {
+                                       if (h == 0)
+                                       {
+                                    <div id="@equi.EquipementID" class="tab-pane active">
+                                        <div class="row">
+
+                                            <div class="row">
+                                                <div class="col-md-12 clearfix">
+                                                    <h4 class="pull-left" style="margin: 0 0 10px">@equi.Name @Resources.Statistics </h4>
+                                                    <div class="btn-group pull-right">
+                                                        <!--<a href="javascript:;" id="updatePieCharts" class="btn btn-default-alt btn-sm">Refresh</a>-->
+                                                    </div>
+                                                </div>
+                                                @if (equi.getLastmeasure() >= equi.HighAlarm)
+                                                {
+                                                    <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                        <div class="easypiechart" id="hight" data-percent="@equi.getLastmeasure()">
+                                                            <span class="percent"></span>
+                                                        </div>
+                                                        <label for="newvisits">@Resources.LastMesure</label>
+                                                        <hr class="hidden-md hidden-lg">
+                                                    </div>}
+                                                else if (equi.getLastmeasure() <= equi.LowAlarm)
+                                                {
+                                                    <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                        <div class="easypiechart" id="Low" data-percent="@equi.getLastmeasure()">
+                                                            <span class="percent"></span>
+                                                        </div>
+                                                        <label for="Low">@Resources.LastMesure</label>
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                        <div class="easypiechart" id="returningvisits" data-percent="@equi.getLastmeasure()">
+                                                            <span class="percent"></span>
+                                                        </div>
+                                                        <label for="newvisits">@Resources.LastMesure</label>
+                                                    </div>
+                                                }
+                                                <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                    <span class="easypiechart" id="newvisitor" data-percent="@equi.getMin()">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                    <label for="bouncerate">@Resources.Minimumregistred</label>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                    <span class="easypiechart" id="clickrate" data-percent="@equi.getMax()">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                    <label for="clickrate">@Resources.Maximumregistred</label>
+                                                </div>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                       }
+                                       else
+                                       {
+                                    <div id="@equi.EquipementID" class="tab-pane">
+                                        <div class="row">
+
+                                            <div class="row">
+                                                <div class="col-md-12 clearfix">
+                                                    <h4 class="pull-left" style="margin: 0 0 10px">@equi.Name Statistics </h4>
+                                                    <div class="btn-group pull-right">
+                                                        <!--<a href="javascript:;" id="updatePieCharts" class="btn btn-default-alt btn-sm">Refresh</a> -->
+                                                    </div>
+                                                </div>
+                                                @if (equi.getLastmeasure() >= equi.HighAlarm)
+                                                {
+                                                    <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                        <div class="easypiechart" id="hight" data-percent="@equi.getLastmeasure()">
+                                                            <span class="percent"></span>
+                                                        </div>
+                                                        <label for="newvisits">@Resources.LastMesure</label>
+                                                    </div>}
+                                                else if (equi.getLastmeasure() <= equi.LowAlarm)
+                                                {
+                                                    <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                        <div class="easypiechart" id="Low" data-percent="@equi.getLastmeasure()">
+                                                            <span class="percent"></span>
+                                                        </div>
+                                                        <label for="Low">@Resources.LastMesure</label>
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                        <div class="easypiechart" id="returningvisits" data-percent="@equi.getLastmeasure()">
+                                                            <span class="percent"></span>
+                                                        </div>
+                                                        <label for="newvisits">@Resources.LastMesure</label>
+                                                    </div>
+                                                }
+                                                <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                    <span class="easypiechart" id="newvisitor" data-percent="@equi.getMin()">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                    <label for="bouncerate">@Resources.Minimumregistred</label>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6 col-md-4" style="padding-top: 10px; padding-bottom: 10px;">
+                                                    <span class="easypiechart" id="clickrate" data-percent="@equi.getMax()">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                    <label for="clickrate">@Resources.Maximumregistred</label>
+                                                </div>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                       }
+                                       h++;
+                                   }
+                                
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
